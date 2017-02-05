@@ -1,0 +1,62 @@
+html {
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+::selection { background: transparent; color:inherit; }
+::-moz-selection { background: transparent; color:inherit; }
+
+/*LISTE MOT*/
+
+.case-mot
+{
+    cursor: pointer;
+    height: 45px;
+    text-align: left;
+}
+
+.case-mot span {
+    line-height: 45px;
+}
+
+.case-mot:hover{
+    background: rgba(216,140,50,0.5);
+}
+
+
+.selected-word{
+    color : darkorchid ;
+    text-decoration: underline;
+}
+
+
+/*QUESTIONNAIRE*/
+
+.questionnaire{
+    font-size: 1.7em;
+}
+
+.questionnaire .tete-row{
+    margin-bottom: 25px;
+}
+
+.questionnaire .desc{
+    text-align: right;
+}
+
+.questionnaire .radio-button{
+    text-align: center;
+}
+
+.questionnaire input[type=radio] {
+    height: 24px;
+    width: 24px;
+}
+
+.questionnaire .note {
+    text-align: center;
+}
+

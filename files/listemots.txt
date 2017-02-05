@@ -1,0 +1,81 @@
+la pipe;le rat;la moto;le pou;la mule;un pot
+le lama;un âne;la rue;le cou;la cane;un tapis
+une poule;le loup;la boue;la route;le boa;la roue
+un rôti;une souris;une taupe;la lune;un navire;un lapin
+une oie;le matin ;une timbale;un mouton;un rond;un poisson
+la rampe;le tigre;le marin;la vitre;la brebis;la truite
+le livre;une prune;un crabe;du sucre;une fourmi;un poulet
+un bouchon;un chat;une vache;une niche;un chiffon;un poussin
+une chanson;le diner;la mouche;le cochon;la bouche;la biche
+la glue;la cloche;la girafe;le singe;la cage;le pigeon
+le canard;le renard;un nuage;la tortue;la bougie;une corde
+un ver;un cheval;la porte;un boeuf ;le veau;le lard
+un poireau;un corbeau;un préau;la ferme;le roseau;un lézard
+une règle;un agneau;le facteur;une fleur;une araignée;la baleine
+le lion ;le camion;une limace;un cerceau;un chien;un garçon
+une coquille;un papillon;une grenouille;du bouillon;le tailleur;un cigare
+le hibou;le travail;une abeille;un écureuil;l'hippopotame;la feuille
+la bouteille;un anneton;un hérisson;un crayon;l'éléphant;les voyages
+le sport;le crapaud;la limace;un rayon;le rhinocéros;le statue
+une sauterelle;le téléphone;une galette;des crevettes;un croc;un escargot
+un geai;un épicéa;une tourterelle;un pigeon;des crevettes;l'addition
+l'hirondelle;le fourmillier;une galette;une benne;un renne;la bicyclette
+un perroquet;le cygne;la terre;l'album;l'ours;le wagon
+une sphère;un pingouin;un poney;un lynx;des coings;un treuil
+un caïman;le réveil;un faon;un paon;les yeux;un tuyau
+un marsouin;un phoque;un poney;un lynx;une chèvre;un exercice
+un goujon;un jet;une cornue;un tigre;la grêle ;la tortue
+la sauce;la pince;l'arête;le saumon;la pintade;la raie
+le renard;le dard;le requin;le bouquin;la taupe;la soupe
+un tiret;le thon;une cigale;un cigare;un caméléon;un croc
+le thon;l'huître;la tourterelle;l'hirondelle;le puits;le thym
+la ruse;l'ermire;la motte;la marmotte;le tampon;le mammouth
+la course;le termite;la méduse;la buse;la fusée;le chacal
+le merle;la perle;l'orme;le moineau;le boisseau;la morue
+le phare ;la place;la maison;le phoque;la puce;le pinson
+le zèbre;le zébu;la braise;le zéro;la haie;le hareng
+la chaise;la benne;un verre;une punaise;un renne;un ver
+une sole;un blaireau;une bécassee;un geai;une tasse;une blette
+une belette;une ablette;un bol;un cageot;un coussin;un frein
+le cloporte;la clôture;une cloque;le rhinocéros;une courge;le manchot
+le banc;le cormoran;un corsaire;un castor;un roitelet;la perdrix
+un turban;un turbot;une otarie;une bougie;un rouget;un astre
+le marabout;un merlan;un cerceau;le torse;un morse;le tamis
+le vison;le vairon;la mésange;la grive;la vautour;le tatou
+le losange;le permis;le vernis;l'acajou;le rouleau;le buffet
+la tonnelle;le pieu;le sapin;la sauterelle;la pieuvre;le pingouin
+le python;le siphon;la grille;le grillon;le gîte;le gibbon
+un eucalyptus;un diplodocus;l'ail;le faisan;le panda;la penderie
+une blatte;une tringle;une abeille;un aigle;un babouin;une babouche
+une bielle;un bouquetin;un campagnol;un pagne;un coquin;un blouson
+un caki;un maki;une lucarne;un lucane;un scarabée;un scaphandre
+une mygale;des cymbales;un nandou;un nautile;le nautilus;le mulot
+le képi;l'okapi;le marsouin;la treille;l'hélice;le souci
+un millier;le rouet;le scorpion;le troëne;la bru;le tapir
+le moulin;le taon;la porcherie;le fourmillier;l'engoulevent;le porc épic
+l'anondonte;le cerfeuil;l'ascaris;un oignon;les dalhias;les bigorneaux
+un fouet;une saponaire;le bombyx;une brème;un calmar;un tréma
+un cobaye;une abbaye;un toucan;le gong;une courgette;une trompette
+la pêche;la bêche;la seiche;la palourde;le pécari;le bugle
+un yack;une martre;une tartine;un radiateur;la loutre;la tartine
+la peluche;la merluche;la murène;la marraine;le tamaris;le tamanoir
+un congre;le surmulot;la souche;l'acajou;le sapajou;l'hippocampe
+le perce oreille;la gangue;le myosotis;un guépard;une congre;le chanvre
+une charade;un torchon;le style;un courlis;un cyprin;l'épeire
+un espadon;un freux;un alligator;une escadrille;une fresque;la glane
+un freux;l'argonaute;le tournesol;une ascidie;l'hémisphère;le hamster
+un bousier;un busard;l'iridium;le sélénium;le chevesne;une civette
+un iota;une isba;la cabriole;une cicindèle;une civette;une luciole
+un macareux;un jalon;un rondin;le grondin;un stigmate;un orvet
+un pectan;un verdier;un radier;une plie;un igloo;un fauchon
+un phatasme;un phasme;une phyllade;une pholade;un espadon;une espadrille
+une courtillère;une fourmillière;une actine;un albatros;un gavial;un encornet
+une encolure;une gavotte;l'aconit;l'albâtre;la marelle;l'anophèle
+un aiguillon;une turquoise;une gerboise;un esturgeon;un gerfaut;le caret
+le cacatoès;l'aloès;le candélabre;la cantharide;l'acanthe;un ergot
+le carrelet;une cérithe;la pivoine;la cétoine;la mangouste;la charmille
+l'élite;le chinchilla;la brindille;l'hémisphère;la patelle;les agrumes
+un stère;le sterne;une stèle;une phrygane;une attelle;le  brontosaure
+le benzène;la frayeur;l'effraie;une daphnie;l'eider;le dériveur
+l'éperon;l'éphémère;l'éperlan;le phénol;l'origan;l'ornithorynque
+une aigrette;la lisse;le coelacanthe;l'argyronète;l'onyx;l'aptérix
