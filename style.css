@@ -14,12 +14,16 @@ html {
 .case-mot
 {
     cursor: pointer;
-    height: 45px;
+    height: 65px;
     text-align: left;
+    display: inline-block;
+    min-width : 10%;
+    max-width : 16%;
+    font-size: 1.5em;
 }
 
 .case-mot span {
-    line-height: 45px;
+    line-height: 65px;
 }
 
 .case-mot:hover{
@@ -30,6 +34,20 @@ html {
 .selected-word{
     color : darkorchid ;
     text-decoration: underline;
+}
+
+.ligne{
+  max-width: 50%;
+    margin: auto;
+}
+
+.ligne p {
+    display: inline;
+}
+
+.separateur {
+    display: inline;
+    font-size: 1.5em;
 }
 
 

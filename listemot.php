@@ -19,30 +19,29 @@
 $motParLigne = 6 ;
 ?>
 
-<div class="container-fluid">
     <h1>Hello World!</h1>
 
 <?php
 $i = 0;
 $ligne = 0;
-echo(" <div class=\"row\">");
+echo(" <div class=\"ligne\">");
 foreach ($listeMot as &$mot) {
     if($i == $motParLigne){
         $i = 0;
         $ligne++;
         echo("</div>");
-        echo(" <div class=\"row\">");
+        echo(" <div class=\"ligne\">");
     }
 
-    $div ="<div id=\"". $ligne."-".$i."\" class=\"col-sm-2 col-md-2 col-lg-2 case-mot\">";
-    $span = "<span>" . $mot . "</span>";
+    $div ="<div id=\"". $ligne."-".$i."\" class=\"case-mot\">";
+    //$pmot = "<p>".$mot."</p>";
+    $separateur = "<span class=\"separateur\"> - </span>";
     $fdiv = "</div>";
-    echo $div . $span . $fdiv ;
+    echo $div . $mot  . $fdiv . $separateur ;
     $i++;
 
 
 }
-echo("</div>");
 ?>
 
 

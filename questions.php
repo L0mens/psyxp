@@ -18,7 +18,7 @@
         <div class="col-sm-1 col-md-1 col-lg-1 note">5</div>
     </div>
     <?php
-    for($i=0;$i<10;$i++){
+    for($i=0;$i<12;$i++){
 
 
     ?>
