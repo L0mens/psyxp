@@ -17,11 +17,6 @@
     }
 
 $motParLigne = 6 ;
-?>
-
-    <h1>Hello World!</h1>
-
-<?php
 $i = 0;
 $ligne = 0;
 echo(" <div class=\"ligne\">");

@@ -17,5 +17,8 @@ $("#calcul").click(function (e) {
         console.log(coord[0] + ";" + coord[1]);
         // console.log( index + ":" + $(this).children(":first").text() );
     });
-    $(".container-fluid").toggleClass("hidden");
+    $("#page-liste-mot").toggleClass("hidden");
+    $("#page-question").toggleClass("hidden");
 });
+
+

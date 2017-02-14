@@ -36,8 +36,15 @@ html {
     text-decoration: underline;
 }
 
+#calcul{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .ligne{
-  max-width: 50%;
+  max-width: 70%;
     margin: auto;
 }
 
@@ -55,6 +62,7 @@ html {
 
 .questionnaire{
     font-size: 1.7em;
+
 }
 
 .questionnaire .tete-row{
@@ -78,3 +86,12 @@ html {
     text-align: center;
 }
 
+.valid-btn{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.valid-btn[disabled]{
+    color : darkgray;
+}
