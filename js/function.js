@@ -22,3 +22,8 @@ $("#calcul").click(function (e) {
 });
 
 
+window.onload = function(){
+    element = document.getElementById('message_avertissement_javascript');
+    element.parentNode.removeChild(element);
+    $("#submit-group").prop('disabled',false)
+}

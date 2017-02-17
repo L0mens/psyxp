@@ -9,6 +9,15 @@ html {
 ::selection { background: transparent; color:inherit; }
 ::-moz-selection { background: transparent; color:inherit; }
 
+#message_avertissement_javascript{
+
+}
+
+.page{
+
+}
+
+
 /*LISTE MOT*/
 
 .case-mot
