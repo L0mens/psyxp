@@ -5,6 +5,10 @@
  * Date: 03/02/2017
  * Time: 23:29
  */
+?>
+<div class="consigne-mini">Clique sur le plus de noms d’animaux possible dans la liste.
+</div>
+<?php
 
     $listeMot = [];
     $names=file('files/listemots.txt');

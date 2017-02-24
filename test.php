@@ -10,17 +10,25 @@
 
 
 
-<div id="page-consigne-xp1" class="hidden">
-
+<div id="page-consigne-xp1" class="">
+    <?php
+    if(ISSET($_GET['code'])){
+        include ("pages-consignes/mcss.php");
+    }
+    ?>
 </div>
 
-<div id="page-liste-mot">
+<div id="page-liste-mot" class="hidden">
     <?php
     include ("listemot.php");
     ?>
 </div>
 
 <div id="page-consigne-xp2" class="hidden">
+    <div id="valid-xp1" class="consigne-mini">
+        <p>Temps écoulé</p>
+        <button id ="btn-start-seconde-xp" class="btn-suivant-consigne" onclick="startSecondConsigne()">Suivant</button>
+    </div>
 
 </div>
 

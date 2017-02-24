@@ -21,9 +21,20 @@ $("#calcul").click(function (e) {
     $("#page-question").toggleClass("hidden");
 });
 
+/*
+    Gestion de la réponse a la question du type de classe
+ */
+$(".btn-check-segpa").click(function (e) {
+    console.log($('input[name="segpa"]:checked').val());
+});
+
+
 
 window.onload = function(){
     element = document.getElementById('message_avertissement_javascript');
-    element.parentNode.removeChild(element);
-    $("#submit-group").prop('disabled',false)
+    if(element != null){
+        element.parentNode.removeChild(element);
+        $("#submit-group").prop('disabled',false);
+    }
+
 }

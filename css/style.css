@@ -13,10 +13,55 @@ html {
 
 }
 
-.page{
+/*CONSIGNES*/
 
+.consigne-mini{
+    background: cornflowerblue;
+    text-align: center;
+    margin: auto;
+    padding: 30px 0px;
+    width: 70%;
+    min-height: 40px;
+    margin-top: 40px;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
+.consigne{
+    background: cornflowerblue;
+    text-align: center;
+    margin: auto;
+    max-width : 600px;
+    min-height: 400px;
+    margin-top: 40px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.consigne h2{
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.consigne p{
+
+    padding: 50px 50px  ;
+}
+.consigne input[type=radio]{
+    margin: 20px;
+
+}
+.consigne label{
+    padding-top: 50px;
+    display: block;
+}
+
+.btn-suivant-consigne{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
 
 /*LISTE MOT*/
 
