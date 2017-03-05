@@ -32,6 +32,10 @@
     </form>
 </div>
 
+<!-- TEST EX ON INDEX-->
+<div>
+   <?php // include ("questions.php"); ?>
+</div>
 
 <script
     src="https://code.jquery.com/jquery-3.1.1.slim.js"

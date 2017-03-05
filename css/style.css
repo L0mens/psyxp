@@ -13,6 +13,11 @@ html {
 
 }
 
+#valid-btn-info-form:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
 /*CONSIGNES*/
 
 .consigne-mini{
@@ -57,10 +62,25 @@ html {
     display: block;
 }
 
+.consigne-form{
+    background: cornflowerblue;
+    text-align: center;
+    margin: auto;
+    max-width : 600px;
+    min-height: 400px;
+    margin-top: 40px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+.consigne-form p{
+    padding: 20px 0;
+}
+
 .btn-suivant-consigne{
     display: block;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 /*LISTE MOT*/
@@ -149,3 +169,6 @@ html {
 .valid-btn[disabled]{
     color : darkgray;
 }
+
+
+

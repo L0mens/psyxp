@@ -2,51 +2,65 @@
  * Created by Lomens on 14/02/2017.
  */
 
-var timerListeMot = 100*60;
-var currentTimer = 0 ;
-var interval = 1000 ;
+
 var currentPage = "page-consigne-xp1";
 var currentConsigne ="";
-var codeXp="";
 
-function switchToScreen(idpage){
-    $("#"+currentPage).toggleClass("hidden");
-    $("#"+idpage).toggleClass("hidden");
-    currentPage = idpage;
-}
 
-function switchConsigne(code,idsuivant){
-    if(currentConsigne == "" || currentConsigne == null){
-        currentConsigne = code+"-1-1";
-        codeXp = code;
+
+
+$(".valid-btn").click(function(e){
+    gestionXP2();
+    switchToScreen("page-contact");
+});
+
+$("#valid-btn-info-form").click(function(e){{
+    gestionForm();
+    switchToScreen("page-fin");
+
+}});
+
+$("#calcul").click(function (e) {
+
+    $( ".selected-word" ).each(function( index ) {
+
+        var coord = $(this)[0].id.split("-");
+        console.log(coord[0] + ";" + coord[1]);
+        // console.log( index + ":" + $(this).children(":first").text() );
+    });
+    $("#page-liste-mot").toggleClass("hidden");
+    $("#page-question").toggleClass("hidden");
+});
+
+/*
+ Gestion de la réponse a la question du type de classe
+ */
+$(".btn-check-segpa").click(function (e) {
+    console.log($('input[name="segpa"]:checked').val());
+});
+
+
+$(".rep-choice input:radio").change(function(){
+
+    var all_answered = 0;
+    $(".rep-choice input:radio").each(function(){
+
+
+        if($(this)[0].checked)
+        {
+            all_answered++;
+        }
+    });
+    console.log(all_answered);
+    if(all_answered == 12){
+        $(".valid-btn").prop('disabled', false);
     }
-    $("#"+currentConsigne).toggleClass("hidden");
-    $("#"+code+"-"+idsuivant).toggleClass("hidden");
-    currentConsigne = code+"-"+idsuivant;
-}
 
-function timerEpreuveListeMot(){
-    if(currentTimer <= 0){
-        clearInterval(idIntervalEpreuveUn);
-        console.log("FIN DE L'EPREUVE");
-        switchToScreen("page-consigne-xp2");
-    }
-    currentTimer -= interval;
-    console.log("Temps restant " + currentTimer/1000);
-}
+});
 
-function startFirstPreuve(){
-    switchToScreen("page-liste-mot");
-    idIntervalEpreuveUn = setInterval(timerEpreuveListeMot,interval);
-}
+$(".case-mot").click(function (e) {
+    $(e.currentTarget).toggleClass("selected-word");
 
-function startSecondConsigne(){
-    switchConsigne(codeXp,"2-1");
-    $("#valid-xp1").toggleClass("hidden");
-}
-
-if(currentTimer <= 0){
-    currentTimer = timerListeMot;
-}
+});
 
 //var

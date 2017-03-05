@@ -110,3 +110,22 @@
     margin: auto;
     margin-top: 150px;
 }
+
+
+#info-form {
+    text-align: left;
+    padding-left: 60px;
+}
+
+#info-form label{
+    width : 120px;
+}
+
+#info-form input[type=radio]{
+    margin : 0px 10px;
+}
+#valid-btn-info-form{
+    margin : auto;
+    display: block;
+    margin-top: 20px;
+}

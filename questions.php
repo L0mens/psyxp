@@ -29,13 +29,13 @@
 
 
     ?>
-    <div class="row">
+    <div class="row rep-choice rep-<?php echo($i);?>">
         <div class="col-sm-1 col-md-1 col-lg-5 desc"><span><?php echo($q);?> : </span></div>
-        <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="1"></div>
-        <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="2"></div>
-        <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="3"></div>
-        <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="4"></div>
-        <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="5"></div>
+        <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="1"/></div>
+        <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="2"/></div>
+        <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="3"/></div>
+        <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="4"/></div>
+        <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="5"/></div>
     </div>
     <?php
         $i++;
