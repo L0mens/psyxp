@@ -8,6 +8,14 @@
 
 ?>
 
+<div class="consigne-mini">
+    <p>Indique dans quelle mesure les buts ci-dessous sont vrais pour toi de 1 à 5 <br/>
+        1  : Pas du tout vrai pour moi<br/>
+        5 : Extrêmement vrai pour moi<br/>
+    </p>
+
+</div>
+
 <form class="questionnaire container-fluid ">
     <div class="row tete-row">
         <div class="col-sm-1 col-md-1 col-lg-5 desc"></div>

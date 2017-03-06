@@ -5,19 +5,28 @@
  * Date: 02/03/2017
  * Time: 13:54
  */
-try{
-    /* BDD M$ AZURE
-    $bdd = new PDO('mysql:host=eu-cdbr-azure-west-c.cloudapp.net;dbname=LmSBD;charset=utf8', 'b4276ec7494d84', '1303b9ec');
-    */
 
-    $bdd = new PDO('mysql:host=localhost;dbname=psyxp;charset=utf8', 'root', '',
-        array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+$debug=FALSE;
+$nowamp =FALSE;
+
+try{
+    if($nowamp){
+        /* BDD M$ AZURE*/
+        $bdd = new PDO('mysql:host=eu-cdbr-azure-west-c.cloudapp.net;dbname=LmSBD;charset=utf8', 'b4276ec7494d84', '1303b9ec',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+
+    }else{
+        $bdd = new PDO('mysql:host=localhost;dbname=psyxp;charset=utf8', 'root', '',
+            array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    }
+
+
+
 }
 catch (Exception $e)
 {
     die('Erreur : ' . $e->getMessage());
 }
-$debug=FALSE;
+
 
 $idOK = FALSE;
 $ageOK = FALSE;
@@ -29,6 +38,8 @@ $classeOK = FALSE;
 $dysOK = FALSE;
 $xp1OK = FALSE;
 $xp2OK = FALSE;
+$goodID = "";
+$goodEtab = "Autre";
 
 if(isset($_GET['id'])){
     $r1 = rand(0,9);
@@ -89,7 +100,8 @@ if(isset($_GET['codeP'])){
 if(isset($_GET['xp1'])){
     $xp1OK = true;
     for($i = 0 ; $i < strlen($_GET['xp1']); $i++){
-        if($_GET['xp1'][$i] =! "1" || $_GET['xp1'][$i] =! "0")
+        $v = intval($_GET['xp1'][$i]);
+        if($v =! 1 && $v =! 0)
             $xp1OK = false;
     }
     if($debug) {
@@ -98,13 +110,22 @@ if(isset($_GET['xp1'])){
     }
 }
 
+if(isset($_GET['xp2'])){
+    $xp2OK = true;
+    if($debug) {
+        $foo = ($xp2OK) ? 'true' : 'false';
+        echo "XP2 : " . $foo . "\n";
+    }
+}
+
 
 
 if($idOK && $ageOK && $dysOK && $classeOK && $codeXPOK && $etabOK && $postalOK && $sexeOK){
     if($xp1OK && $xp2OK){
-        $req = $bdd->prepare('INSERT INTO passage VALUES(:id, :codexp, :age, :sexe, :classe, :dys, :etabli, :postal, :xp1, :xp2)');
+        $req = $bdd->prepare('INSERT INTO passage VALUES(:id, :segpa, :codexp, :age, :sexe, :classe, :dys, :etabli, :postal, :xp1, :xp2)');
         $req->execute(array(
             'id' => $goodID,
+            'segpa' => $_GET['segpa'],
             'codexp' => $_GET['codeXP'],
             'age' => $_GET['age'],
             'sexe' => $_GET['sexe'],

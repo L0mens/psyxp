@@ -6,7 +6,7 @@ var listeRangeMotSelect = [];
 var reponseUserXP1 = "";
 var reponseUserXP1Slim = "";
 var reponseUserXP2 = "";
-var timerListeMot = 1000*6;
+var timerListeMot = 1000*3;
 var currentTimer = 0 ;
 var interval = 1000 ;
 var codeXp="";
@@ -73,10 +73,12 @@ function gestionForm(){
     var dyslexieF = $("input:radio[name=dyslexie]:checked").val();
     var etabF = $("#input-etab").val();
     var postalF = $("#input-postal").val();
+    var segpaF = $("input:radio[name=segpa]:checked").val();
 
     eleve = {
         id:identifiantF ,
         codeXP: codeXp,
+        segpa: segpaF,
         age:ageF ,
         sexe:sexeF ,
         classe:classeF ,
@@ -98,6 +100,7 @@ function register(){
         {
             id : eleve.id ,
             codeXP : eleve.codeXP,
+            segpa : eleve.segpa,
             age : eleve.age ,
             sexe : eleve.sexe ,
             classe : eleve.classe ,

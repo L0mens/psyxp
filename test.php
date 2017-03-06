@@ -9,12 +9,12 @@
 </head>
 <body>
 <?php
-    $listCode = array("mcss");
+    $listCode = array("mcss", "mcso", "mcgo", "mcgs", "mrps", "mrgo", "mrpo", "mrgs", "mrs", "mro");
     if(ISSET($_GET['code'])) {
         $codeMin = strtolower($_GET['code']);
     }
     else {
-        echo("ERREUR CODE");
+        echo("<div class='consigne'><h2>Pas de code</h2><p><a href='index.php'>Retour</a></p></div>");
         $codeMin="ERROR";
     }
 ?>
@@ -25,7 +25,7 @@
         if(in_array($codeMin, $listCode))
             include ("pages-consignes/".$codeMin.".php");
         else
-            echo("ERREUR CODE");
+            echo("<div class='consigne'><h2>ERREUR CODE</h2><p><a href='index.php'>Retour</a></p></div>");
 
     ?>
 </div>
@@ -38,7 +38,13 @@
 
 <div id="page-consigne-xp2" class="hidden">
     <div id="valid-xp1" class="consigne-mini">
-        <p>Temps écoulé</p>
+        <?php
+        if($codeMin == "mrs" || $codeMin == "mro")
+            echo("<p>Temps du jeu écoulé</p>");
+        else
+            echo ("<p>Temps écoulé</p>");
+        ?>
+
         <button id ="btn-start-seconde-xp" class="btn-suivant-consigne" onclick="startSecondConsigne()">Suivant</button>
     </div>
     <?php
@@ -55,7 +61,7 @@
     ?>
 </div>
 
-<div id="page-contact" class="">
+<div id="page-contact" class="hidden">
     <div class="consigne-form">
         <p>Voila c'est enregistré ! Il ne manque plus que quelques informations.</p>
         <div id="info-form">
@@ -103,6 +109,8 @@
 <div id="page-fin" class="hidden">
     <div class="consigne">
         <p id="valid-text-final">Chargement....</p>
+        <p id="debrief-text">Tu viens de participer à une expérience de psychologie sur les stéréotypes et les buts d’accomplissements. Une explication orale te sera donnée sur les objectifs de cette étude. Nous te remercions de ta participation.
+        </p>
         <a href="index.php">Retour a l'accueil</a>
     </div>
 
