@@ -34,14 +34,14 @@
 
 <div id="mcss-1-4" class="consigne hidden">
 
-    <p>Tu connaitras ton résultat mais nous nous ne le connaitrons pas. Et tu sauras si ta performance personnelle est différente de celle des élèves qui ne sont pas en SEGPA</p>
+    <p>Tu connaitras ton résultat mais nous nous ne le connaitrons pas. Et tu sauras si ta performance personnelle est différente de celle des élèves qui ne sont pas en SEGPA.</p>
     <button id ="btn-suivant-mcss-1-4" class="btn-suivant-consigne" onclick="switchConsigne('mcss','1-5')">Suivant</button>
 </div>
 
 <div id="mcss-1-5" class="consigne hidden">
     <h2>Consigne</h2>
-    <p>Clique sur le plus de noms d’animaux possible dans la liste. Attention tu auras un temps limité dès que l’épreuve s’affichera. La police changera alors de couleur, en cas d’erreur tu pourras décliquer
+    <p>Clique sur le plus de noms d’animaux possible dans la liste. Attention tu auras un temps limité dès que l’épreuve s’affichera. La police changera alors de couleur, en cas d’erreur tu pourras décliquer.
     </p>
-    <button id ="btn-suivant-mcss-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer l'épreuve</button>
+    <button id ="btn-suivant-mcss-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer</button>
 </div>
 

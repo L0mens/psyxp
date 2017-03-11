@@ -19,7 +19,7 @@
 <div id="mrpo-2-2" class="consigne hidden">
 
     <p>Tu vas passer un questionnaire qui permet de prédire ton niveau en français à la fin
-        du collège
+        du collège.
     </p>
     <button id ="btn-suivant-mrpo-2-2" class="btn-suivant-consigne" onclick="switchConsigne('mrpo','2-3')">Suivant</button>
 </div>

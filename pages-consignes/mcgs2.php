@@ -17,15 +17,14 @@
 <div id="mcgs-2-2" class="consigne hidden">
 
     <p>Tu vas passer un questionnaire qui permet de prédire ton niveau en français à la fin
-        du collège
+        du collège.
     </p>
     <button id ="btn-suivant-mcgs-2-2" class="btn-suivant-consigne" onclick="switchConsigne('mcgs','2-3')">Suivant</button>
 </div>
 
 <div id="mcgs-2-3" class="consigne hidden">
 
-    <p>Tu ne connaitras pas ton résultat et nous non plus car il sera directement mélanger à ceux des autres élèves de SEGPA. Nous ne connaitrons pas non plus le résultat moyen des élèves de SEGPA. Mais toi tu sauras s’il est différent de celui des élèves qui ne sont pas en SEGPA. Ta performance sera déterminante dans les résultats de ton groupe
-    </p>
+    <p>Tu ne connaitras pas ton résultat et nous non plus car il sera directement mélangé à ceux des autres élèves de SEGPA. Nous ne connaitrons pas non plus le résultat moyen des élèves de SEGPA. Mais toi, tu sauras s’il est différent de celui des élèves qui ne sont pas en SEGPA. Ta performance sera déterminante dans les résultats de ton groupe.</p>
     <button id ="btn-suivant-mcgs-2-3" class="btn-suivant-consigne" onclick="switchConsigne('mcgs','2-4')">Suivant</button>
 </div>
 

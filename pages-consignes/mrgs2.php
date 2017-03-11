@@ -18,7 +18,7 @@
 <div id="mrgs-2-2" class="consigne hidden">
 
     <p>Tu vas passer un questionnaire qui permet de prédire ton niveau en français à la fin
-        du collège
+        du collège.
     </p>
     <button id ="btn-suivant-mrgs-2-2" class="btn-suivant-consigne" onclick="switchConsigne('mrgs','2-3')">Suivant</button>
 </div>

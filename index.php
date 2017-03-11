@@ -11,7 +11,7 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Lomens.com</title>
+    <title>étudeM1Lille3</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -21,10 +21,10 @@
 <div id="page-intro" class="page">
 
     <form id="form-code-group" class="form-container" action="test.php" method="get">
-        <div class="form-title">Code fourni par le prof</div>
+        <div class="form-title">Code d'accès</div>
         <input class="form-field" type="text" name="code" /><br />
         <div id="message_avertissement_javascript">
-            <p>Attention, vous avez désactivé Javascript sur votre navigateur, le site ne fonctionnera pas </p>
+            <p>Attention, si ce message ne disparaît pas, Javascript est désactivé sur votre navigateur, le site ne fonctionnera pas.</p>
         </div>
         <div class="submit-container">
             <input id="submit-group" class="submit-button" type="submit" value="Valider" disabled />

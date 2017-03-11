@@ -40,7 +40,7 @@
 
 <div id="mrps-1-5" class="consigne hidden">
     <h2>Consigne</h2>
-    <p>Clique sur le plus de noms d’animaux possible dans la liste. Attention tu auras un temps limité dès que l’épreuve s’affichera. La police changera alors de couleur, en cas d’erreur tu pourras décliquer
+    <p>Clique sur le plus de noms d’animaux possible dans la liste. Attention tu auras un temps limité dès que l’épreuve s’affichera. La police changera alors de couleur, en cas d’erreur tu pourras décliquer.
     </p>
-    <button id ="btn-suivant-mrps-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer l'épreuve</button>
+    <button id ="btn-suivant-mrps-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer</button>
 </div>

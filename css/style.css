@@ -4,6 +4,12 @@ html {
     -khtml-user-select: none;
     -o-user-select: none;
     user-select: none;
+    background: url("../files/cleanbg.jpg");
+    background-color : #bdc3c7;
+}
+
+body{
+    background-color : transparent !important;
 }
 
 ::selection { background: transparent; color:inherit; }
@@ -29,7 +35,8 @@ html {
     min-height: 40px;
     margin-top: 40px;
     border-radius: 25px;
-    font-size: 16px;
+    line-height: 40px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
@@ -41,7 +48,13 @@ html {
     min-height: 400px;
     margin-top: 40px;
     border-radius: 25px;
-    font-size: 16px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.consigne form{
+    text-align: left;
+    margin-left: 215px;
 }
 
 .consigne h2{
@@ -79,7 +92,7 @@ html {
 .btn-suivant-consigne{
     display: block;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -94,6 +107,7 @@ html {
     min-width : 10%;
     max-width : 16%;
     font-size: 1.5em;
+    color : whitesmoke;
 }
 
 .case-mot span {
@@ -106,7 +120,7 @@ html {
 
 
 .selected-word{
-    color : darkorchid ;
+    color : darksalmon ;
     text-decoration: underline;
 }
 
@@ -120,6 +134,7 @@ html {
 .ligne{
   max-width: 70%;
     margin: auto;
+    text-align: center;
 }
 
 .ligne p {
@@ -136,6 +151,7 @@ html {
 
 .questionnaire{
     font-size: 1.7em;
+    color : whitesmoke;
 
 }
 
@@ -160,15 +176,33 @@ html {
     text-align: center;
 }
 
+.questionnaire span{
+    font-size: 16px;
+}
+
 .valid-btn{
     display: block;
     margin: auto;
     margin-top: 40px;
+    color: black;
 }
 
 .valid-btn[disabled]{
     color : darkgray;
 }
 
+
+/* MEDIA Q */
+
+@media screen and (max-width: 1365px) {
+    .questionnaire span{
+        font-size: 14px;
+    }
+
+    .case-mot
+    {
+        font-size: 1.2em;
+    }
+}
 
 

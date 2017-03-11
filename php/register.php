@@ -7,7 +7,7 @@
  */
 
 $debug=FALSE;
-$nowamp =FALSE;
+$nowamp =TRUE;
 
 try{
     if($nowamp){
@@ -136,7 +136,7 @@ if($idOK && $ageOK && $dysOK && $classeOK && $codeXPOK && $etabOK && $postalOK &
             'xp1' =>$_GET['xp1'],
             'xp2' => $_GET['xp2']
         ));
-        echo "Tout est validé, merci d'avoir participé";
+        echo "Tout est validé, \n \n nous te remercions de ta participation.";
 
         if($debug) {
             $reponse = $bdd->query('SELECT * FROM passage');
@@ -149,11 +149,11 @@ if($idOK && $ageOK && $dysOK && $classeOK && $codeXPOK && $etabOK && $postalOK &
             $reponse->closeCursor(); // Termine le traitement de la requête
         }
     }else{
-        echo "Erreurs lors des expériences ! Les données n'ont pas été enregistré";
+        echo "Erreurs lors des expériences ! Les données n'ont pas été enregistré.";
     }
 }
 else{
-    echo "Erreurs lors de la saisie du formulaire finale ! Les données n'ont pas été enregistré";
+    echo "Erreurs lors de la saisie du formulaire finale ! Les données n'ont pas été enregistré.";
 }
 
 

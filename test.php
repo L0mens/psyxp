@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Lomens.com</title>
+    <title>étudeM1Lille3</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -63,17 +63,17 @@
 
 <div id="page-contact" class="hidden">
     <div class="consigne-form">
-        <p>Voila c'est enregistré ! Il ne manque plus que quelques informations.</p>
+        <p>Tes réponses ont bien été enregistrées. Merci de bien vouloir remplir ce formulaire.</p>
         <div id="info-form">
             <div>
                 <label>Identifiant : </label>
-                <input type="text" id="input-id" name="id"/>
-                <div>2 premières lettre de ton Prénom et Nom + jjmmaaaa de naissance.<br>
+                <input type="text" id="input-id" name="id" size="12"/>
+                <div>2 premières lettres de ton Prénom et Nom + jjmmaaaa de naissance.<br>
                         Ex : Jade Dupond née le 9 mars 2002 : JADU09032002 <br></div>
             </div>
             <div>
                 <label>Age : </label>
-                <input type="text" id="input-age" name="age"/>
+                <input type="text" id="input-age" name="age" size="2"/>
             </div>
             <div>
                 <label>Sexe : </label>
@@ -88,15 +88,15 @@
             </div>
             <div>
                 <label>Dyslexie : </label>
-                <input type="radio" name="dyslexie" value="Y" checked/>Oui<input type="radio" name="dyslexie" value="N" />Non
+                <input type="radio" name="dyslexie" value="N" checked/>Non<input type="radio" name="dyslexie" value="Y" />Yes
             </div>
             <div>
                 <label>Etablissement : </label>
-                <input type="text" id="input-etab" name="etab"/>
+                <input type="text" id="input-etab" name="etab" size="39"/>
             </div>
             <div>
                 <label>Code Postal : </label>
-                <input type="text" id="input-postal" name="postal"/>
+                <input type="text" id="input-postal" name="postal" size="5"/>
             </div>
 
         </div>
@@ -111,7 +111,7 @@
         <p id="valid-text-final">Chargement....</p>
         <p id="debrief-text">Tu viens de participer à une expérience de psychologie sur les stéréotypes et les buts d’accomplissements. Une explication orale te sera donnée sur les objectifs de cette étude. Nous te remercions de ta participation.
         </p>
-        <a href="index.php">Retour a l'accueil</a>
+        <a href="index.php">Retour à l'accueil</a>
     </div>
 
 </div>

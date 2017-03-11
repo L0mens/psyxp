@@ -17,7 +17,7 @@
 <div id="mcss-2-2" class="consigne hidden">
 
     <p>Tu vas passer un questionnaire qui permet de prédire ton niveau en français à la fin
-        du collège
+        du collège.
     </p>
     <button id ="btn-suivant-mcss-2-2" class="btn-suivant-consigne" onclick="switchConsigne('mcss','2-3')">Suivant</button>
 </div>

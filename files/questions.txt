@@ -1,12 +1,12 @@
-Ceci est une assez longue question numéro 1
-Ceci est une assez longue question numéro 2
-Ceci est une assez longue question numéro 3
-Ceci est une assez longue question numéro 4
-Ceci est une assez longue question numéro 5
-Ceci est une assez longue question numéro 6
-Ceci est une assez longue question numéro 7
-Ceci est une assez longue question numéro 8
-Ceci est une assez longue question numéro 9
-Ceci est une assez longue question numéro 10
-Ceci est une assez longue question numéro 11
-Ceci est une assez longue question numéro 12
+1. ...mon attention est portée sur le fait de développer mes savoirs.
+2. ...mon objectif est de développer des aptitudes.
+3. ...mon but est d'accroitre ma compétence.
+4. ...mon but est d'éviter une perte d'aptitudes
+5. ...mon attention est portée sur le fait de ne pas devenir moins compétent
+6. ...mon objectif est d'éviter de perdre mes savoirs
+7. ...mon but est de démontrer des aptitudes
+8. ...mon objectif est de montrer de la compétence
+9. ...mon attention est portée sur le fait de démontrer que je dispose de compétences
+10. ...mon objectif est d'éviter de montrer de l'incompétence
+11. ...mon attention est portée sur le fait de ne pas démontrer des inaptitudes
+12. ...mon but est d'éviter de démontrer que je manque de connaissances

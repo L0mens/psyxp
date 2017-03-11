@@ -12,7 +12,7 @@
         if($codeMin == "mrs" || $codeMin == "mro")
             echo("Clique sur le plus d’animaux  possible dans la liste.");
         else
-            echo ("Clique sur le plus de noms d’animaux possible dans la liste.");
+            echo ("Clique sur le plus de noms d’animaux possible dans la liste. Le mot changera alors de couleur, en cas d’erreur tu pourras décliquer. Attention, tu auras un temps limité dès que l’épreuve s’affichera. ");
     ?>
     </p>
 </div>

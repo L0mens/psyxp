@@ -9,8 +9,8 @@
 ?>
 
 <div class="consigne-mini">
-    <p>Indique dans quelle mesure les buts ci-dessous sont vrais pour toi de 1 à 5 <br/>
-        1  : Pas du tout vrai pour moi<br/>
+    <p>Indique dans quelle mesure les buts ci-dessous sont vrais pour toi de 1 à 5 :<br/>
+        1 : Pas du tout vrai pour moi<br/>
         5 : Extrêmement vrai pour moi<br/>
     </p>
 
@@ -18,7 +18,7 @@
 
 <form class="questionnaire container-fluid ">
     <div class="row tete-row">
-        <div class="col-sm-1 col-md-1 col-lg-5 desc"></div>
+        <div class="col-sm-5 col-md-5 col-lg-5 desc"></div>
         <div class="col-sm-1 col-md-1 col-lg-1 note">1</div>
         <div class="col-sm-1 col-md-1 col-lg-1 note">2</div>
         <div class="col-sm-1 col-md-1 col-lg-1 note">3</div>
@@ -38,7 +38,7 @@
 
     ?>
     <div class="row rep-choice rep-<?php echo($i);?>">
-        <div class="col-sm-1 col-md-1 col-lg-5 desc"><span><?php echo($q);?> : </span></div>
+        <div class="col-sm-5 col-md-5 col-lg-5 desc"><span><?php echo($q);?> : </span></div>
         <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="1"/></div>
         <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="2"/></div>
         <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="3"/></div>
