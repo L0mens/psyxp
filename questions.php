@@ -18,7 +18,7 @@
 
 <form class="questionnaire container-fluid ">
     <div class="row tete-row">
-        <div class="col-sm-5 col-md-5 col-lg-5 desc"></div>
+        <div class="col-sm-5 col-md-5 col-lg-5 desc">En français...</div>
         <div class="col-sm-1 col-md-1 col-lg-1 note">1</div>
         <div class="col-sm-1 col-md-1 col-lg-1 note">2</div>
         <div class="col-sm-1 col-md-1 col-lg-1 note">3</div>
