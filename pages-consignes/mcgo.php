@@ -35,13 +35,19 @@
 
 <div id="mcgo-1-4" class="consigne hidden">
 
-    <p>Tu ne connaitras pas ton résultat et nous non plus car il sera directement mélangé à ceux des autres élèves de SEGPA. Nous ne connaitrons pas non plus le résultat moyen des élèves de SEGPA. Mais toi, tu sauras s’il est différent de celui des élèves qui ne sont pas en SEGPA. Ta performance sera déterminante dans les résultats de ton groupe.</p>
+    <p>Tu ne connaitras pas ton résultat et nous non plus car il sera directement mélangé à ceux des autres élèves de SEGPA. <br /><br />
+        Nous ne connaitrons pas non plus le résultat moyen des élèves de SEGPA. <br /><br />
+        Mais toi, tu sauras s’il est différent de celui des élèves qui ne sont pas en SEGPA. <br /><br />
+        Ta performance sera déterminante dans les résultats de ton groupe.
+    </p>
     <button id ="btn-suivant-mcgo-1-4" class="btn-suivant-consigne" onclick="switchConsigne('mcgo','1-5')">Suivant</button>
 </div>
 
 <div id="mcgo-1-5" class="consigne hidden">
     <h2>Consigne</h2>
-    <p>Clique sur le plus de noms d’animaux possible dans la liste. Attention tu auras un temps limité dès que l’épreuve s’affichera. La police changera alors de couleur, en cas d’erreur tu pourras décliquer.
+    <p>Clique sur le plus de noms d’animaux possible dans la liste. <br /><br />
+        Attention tu auras un temps limité dès que l’épreuve s’affichera. <br /><br />
+        La police changera alors de couleur, en cas d’erreur tu pourras décliquer.
     </p>
     <button id ="btn-suivant-mcgo-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer</button>
 </div>

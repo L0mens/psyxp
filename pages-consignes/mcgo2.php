@@ -25,7 +25,11 @@
 
 <div id="mcgo-2-3" class="consigne hidden">
 
-    <p>Tu ne connaitras pas ton résultat et nous non plus car il sera directement mélangé à ceux des autres élèves de SEGPA. Nous ne connaitrons pas non plus le résultat moyen des élèves de SEGPA. Mais toi, tu sauras s’il est différent de celui des élèves qui ne sont pas en SEGPA. Ta performance sera déterminante dans les résultats de ton groupe.</p>
+    <p>Tu ne connaitras pas ton résultat et nous non plus car il sera directement mélangé à ceux des autres élèves de SEGPA. <br><br />
+        Nous ne connaitrons pas non plus le résultat moyen des élèves de SEGPA. <br><br />
+        Mais toi, tu sauras s’il est différent de celui des élèves qui ne sont pas en SEGPA. <br><br />
+        Ta performance sera déterminante dans les résultats de ton groupe.
+    </p>
     <button id ="btn-suivant-mcgo-2-3" class="btn-suivant-consigne" onclick="switchConsigne('mcgo','2-4')">Suivant</button>
 </div>
 

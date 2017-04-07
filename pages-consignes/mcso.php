@@ -16,7 +16,7 @@
 
 <div id="mcso-1-2" class="consigne hidden">
 
-    <p>Tu vas passer une évaluation de lecture silencieuse.
+    <p>Tu vas passer une évaluation de lecture silencieuse.<br><br />
 Ce test est représentatif de ton niveau actuel en français.</p>
     <button id ="btn-suivant-mcso-1-2" class="btn-suivant-consigne" onclick="switchConsigne('mcso','1-3')">Suivant</button>
 </div>
@@ -33,13 +33,16 @@ Ce test est représentatif de ton niveau actuel en français.</p>
 
 <div id="mcso-1-4" class="consigne hidden">
 
-    <p>Tu connaitras ton résultat mais nous nous ne le connaitrons pas. Et tu sauras si ta performance personnelle est différente de celle des élèves qui sont en SEGPA.</p>
+    <p>Tu connaitras ton résultat mais nous nous ne le connaitrons pas. <br><br />
+        Et tu sauras si ta performance personnelle est différente de celle des élèves qui sont en SEGPA.</p>
     <button id ="btn-suivant-mcso-1-4" class="btn-suivant-consigne" onclick="switchConsigne('mcso','1-5')">Suivant</button>
 </div>
 
 <div id="mcso-1-5" class="consigne hidden">
     <h2>Consigne</h2>
-    <p>Clique sur le plus de noms d’animaux possible dans la liste. Attention tu auras un temps limité dès que l’épreuve s’affichera. La police changera alors de couleur, en cas d’erreur tu pourras décliquer.
+    <p>Clique sur le plus de noms d’animaux possible dans la liste. <br><br />
+        Attention tu auras un temps limité dès que l’épreuve s’affichera. <br><br />
+        La police changera alors de couleur, en cas d’erreur tu pourras décliquer.<br><br />
 </p>
     <button id ="btn-suivant-mcso-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer</button>
 </div>

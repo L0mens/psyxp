@@ -26,7 +26,9 @@
 
 <div id="mrpo-2-3" class="consigne hidden">
 
-    <p>Tu ne connaitras pas ni  ton résultat ni le résultat de ton groupe. Nous ne connaitrons pas non plus ton résultat personnel mais nous saurons si la performance moyenne des élèves de SEGPA est différente de celle des élèves qui ne sont pas en SEGPA. Ta performance sera déterminante dans la moyenne de ton groupe.
+    <p>Tu ne connaitras pas ni  ton résultat ni le résultat de ton groupe. <br><br />
+        Nous ne connaitrons pas non plus ton résultat personnel mais nous saurons si la performance moyenne des élèves de SEGPA est différente de celle des élèves qui ne sont pas en SEGPA. <br><br />
+        Ta performance sera déterminante dans la moyenne de ton groupe.
     </p>
     <button id ="btn-suivant-mrpo-2-3" class="btn-suivant-consigne" onclick="switchConsigne('mrpo','2-4')">Suivant</button>
 </div>

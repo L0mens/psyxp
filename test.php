@@ -68,7 +68,7 @@
             <div>
                 <label>Identifiant : </label>
                 <input type="text" id="input-id" name="id" size="12"/>
-                <div>2 premières lettres de ton Prénom et Nom + jjmmaaaa de naissance.<br>
+                <div>2 premières lettres de ton Prénom et Nom, en majuscule + jjmmaaaa de naissance.<br>
                         Ex : Jade Dupond née le 9 mars 2002 : JADU09032002 <br></div>
             </div>
             <div>
@@ -88,7 +88,7 @@
             </div>
             <div>
                 <label>Dyslexie : </label>
-                <input type="radio" name="dyslexie" value="N" checked/>Non<input type="radio" name="dyslexie" value="Y" />Yes
+                <input type="radio" name="dyslexie" value="N" checked/>Non<input type="radio" name="dyslexie" value="Y" />Oui
             </div>
             <div>
                 <label>Etablissement : </label>

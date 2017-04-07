@@ -32,7 +32,9 @@
 
 <div id="mrs-1-5" class="consigne hidden">
     <h2>Consigne</h2>
-    <p>Clique sur le plus d’animaux possible dans la liste. Attention tu auras un temps limité dès que le jeu s’affichera. La police changera alors de couleur, en cas d’erreur tu pourras décliquer.
+    <p>Clique sur le plus d’animaux possible dans la liste. <br><br />
+        Attention tu auras un temps limité dès que le jeu s’affichera. <br><br />
+        La police changera alors de couleur, en cas d’erreur tu pourras décliquer.
     </p>
     <button id ="btn-suivant-mrs-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer</button>
 </div>

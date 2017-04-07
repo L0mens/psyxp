@@ -23,7 +23,8 @@
 
 <div id="mcso-2-3" class="consigne hidden">
 
-    <p>Tu connaitras ton résultat mais nous nous ne le connaitrons pas. Et tu sauras si ta performance personnelle est différente de celle des élèves qui sont en SEGPA.
+    <p>Tu connaitras ton résultat mais nous nous ne le connaitrons pas.<br><br />
+        Et tu sauras si ta performance personnelle est différente de celle des élèves qui sont en SEGPA.
     </p>
     <button id ="btn-suivant-mcso-2-3" class="btn-suivant-consigne" onclick="switchConsigne('mcso','2-4')">Suivant</button>
 </div>

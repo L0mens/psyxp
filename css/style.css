@@ -40,6 +40,20 @@ body{
     margin-bottom: 20px;
 }
 
+.consigne-large{
+    background: cornflowerblue;
+    text-align: center;
+    margin: auto;
+    padding: 30px 0px;
+    width: 100%;
+    min-height: 40px;
+    margin-top: 40px;
+    border-radius: 25px;
+    line-height: 40px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
 .consigne{
     background: cornflowerblue;
     text-align: center;
@@ -48,7 +62,7 @@ body{
     min-height: 400px;
     margin-top: 40px;
     border-radius: 25px;
-    line-height: 40px;
+    line-height: 32px;
     font-size: 18px;
 }
 
@@ -107,7 +121,7 @@ body{
     min-width : 10%;
     max-width : 16%;
     font-size: 1.5em;
-    color : whitesmoke;
+    color : black;
 }
 
 .case-mot span {
@@ -120,7 +134,7 @@ body{
 
 
 .selected-word{
-    color : darksalmon ;
+    color : dodgerblue ;
     text-decoration: underline;
 }
 
@@ -135,6 +149,8 @@ body{
   max-width: 70%;
     margin: auto;
     text-align: center;
+    background: white;
+
 }
 
 .ligne p {
@@ -165,6 +181,7 @@ body{
 
 .questionnaire .radio-button{
     text-align: center;
+    max-width: 40px;
 }
 
 .questionnaire input[type=radio] {
@@ -174,6 +191,7 @@ body{
 
 .questionnaire .note {
     text-align: center;
+    max-width: 40px;
 }
 
 .questionnaire span{
@@ -205,4 +223,13 @@ body{
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .questionnaire span{
+        font-size: 12px;
+    }
 
+    .case-mot
+    {
+        font-size: 1.2em;
+    }
+}
