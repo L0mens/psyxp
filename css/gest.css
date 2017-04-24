@@ -1,0 +1,18 @@
+.tableau{
+    margin : auto;
+    margin-top: 50px;
+}
+
+.tableau th{
+    background: cornflowerblue;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.tableau tbody tr{
+    background: navajowhite;
+}
+
+.tableau tbody tr:nth-child(2n+2){
+    background: thistle;
+}
