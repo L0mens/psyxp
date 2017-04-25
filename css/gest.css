@@ -1,3 +1,8 @@
+body{
+    margin : auto;
+    text-align: center;
+}
+
 .tableau{
     margin : auto;
     margin-top: 50px;
@@ -12,6 +17,21 @@
 .tableau tbody tr{
     background: navajowhite;
 }
+
+.tableau tbody tr{
+    text-align: center;
+}
+
+.tableau tbody td{
+    border: 1px dashed gray;
+}
+
+.tableau caption{
+    text-align: center;
+    font-size : 2em;
+    color: black;
+}
+
 
 .tableau tbody tr:nth-child(2n+2){
     background: thistle;
