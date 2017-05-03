@@ -17,20 +17,46 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
+<?php
 
-<div id="page-intro" class="page">
 
-    <form id="form-code-group" class="form-container" action="test.php" method="get">
-        <div class="form-title">Code d'accès</div>
-        <input class="form-field" type="text" name="code" /><br />
-        <div id="message_avertissement_javascript">
-            <p>Attention, si ce message ne disparaît pas, Javascript est désactivé sur votre navigateur, le site ne fonctionnera pas.</p>
+if(!ISSET($_GET['cs']) || strcmp($_GET['cs'],"y") !== 0){
+
+
+
+    ?>
+        <div id="page-avert" class="page">
+            <p>
+                Dans cette étude nous cherchons à comprendre les buts et les habilités des élèves de collège. Tu vas faire un court test puis répondre un questionnaire sur tes buts réels. Le temps de passation est d’environ 20 minutes.
+            </p>
+            <p>
+                Si tu le désires, tu es libre d’arrêter de participer à tout moment. Les données et les résultats te concernant sont confidentiels. Seule l’équipe des chercheurs, désignée par le directeur de recherche, est autorisée à les analyser.
+            </p>
+            <form action="index.php" method="get">
+                <input type="hidden" name="cs" value="y" />
+                <input class="submit-button" type="submit" name="sub" value="J'accèpte" />
+            </form>
         </div>
-        <div class="submit-container">
-            <input id="submit-group" class="submit-button" type="submit" value="Valider" disabled />
-        </div>
-    </form>
-</div>
+<?php }
+
+else {
+    ?>
+
+    <div id="page-intro" class="page">
+
+        <form id="form-code-group" class="form-container" action="test.php" method="get">
+            <div class="form-title">Code d'accès</div>
+            <input class="form-field" type="text" name="code" /><br />
+            <div id="message_avertissement_javascript">
+                <p>Attention, si ce message ne disparaît pas, Javascript est désactivé sur votre navigateur, le site ne fonctionnera pas.</p>
+            </div>
+            <div class="submit-container">
+                <input id="submit-group" class="submit-button" type="submit" value="Valider" disabled />
+            </div>
+        </form>
+    </div>
+    <?php
+}?>
 
 <script
     src="https://code.jquery.com/jquery-3.1.1.slim.js"

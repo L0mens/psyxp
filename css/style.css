@@ -24,6 +24,25 @@ body{
     cursor: not-allowed;
 }
 
+#page-avert{
+    background: #f2e3d2;
+    width : 50%;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px;
+
+}
+
+#page-avert p{
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+#page-avert form{
+    text-align: center;
+}
+
 /*CONSIGNES*/
 
 .consigne-mini{
