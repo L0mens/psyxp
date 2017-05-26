@@ -67,3 +67,7 @@ $("#input-postal").on('input',function() {
     }
     verifok();
 });
+
+$( "#cb-valid" ).on( "click", function(){
+    $("#btn-valid").prop("disabled",!this.checked);
+});

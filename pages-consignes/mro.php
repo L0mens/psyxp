@@ -18,7 +18,7 @@
 
 <div id="mro-1-2" class="consigne hidden">
 
-    <p>C'est un jeu de repérage</p>
+    <p>C'est une activité jeu de repérage</p>
     <button id ="btn-suivant-mro-1-2" class="btn-suivant-consigne" onclick="switchConsigne('mro','1-5')">Suivant</button>
 </div>
 

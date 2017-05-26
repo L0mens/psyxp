@@ -22,7 +22,7 @@ function gestionXP1() {
         var coord = $(this)[0].id.split("-");
 
         newRange = parseInt(coord[0])*6 + parseInt(coord[1]);
-        console.log(newRange);
+       // console.log(newRange);
         listeRangeMotSelect.push(newRange);
         // console.log( index + ":" + $(this).children(":first").text() );
     });
@@ -41,7 +41,7 @@ function gestionXP1() {
     var i = reponseUserXP1.length-1;
     var noOne = true;
     while (noOne){
-        console.log(i);
+       // console.log(i);
         if(i<=0)
             noOne = false;
         if(reponseUserXP1[i] == "1"){
@@ -51,7 +51,7 @@ function gestionXP1() {
         i--;
     }
 
-    console.log(reponseUserXP1Slim);
+  //  console.log(reponseUserXP1Slim);
 }
 
 function gestionXP2(){
@@ -62,7 +62,7 @@ function gestionXP2(){
         }
     });
 
-    console.log(reponseUserXP2);
+   // console.log(reponseUserXP2);
 }
 
 function gestionForm(){
@@ -94,7 +94,7 @@ function gestionForm(){
 }
 
 function register(){
-    console.log(eleve.id);
+    //console.log(eleve.id);
     $.get(
         'php/register.php',
         {
@@ -111,7 +111,7 @@ function register(){
             xp2 : eleve.xp2
         },
         function(data){
-            console.log(data);
+            //console.log(data);
             $("#valid-text-final").text(data);
         },
         'text'
@@ -142,7 +142,7 @@ function timerEpreuveListeMot(){
         switchToScreen("page-consigne-xp2");
     }
     currentTimer -= interval;
-    console.log("Temps restant " + currentTimer/1000);
+    //console.log("Temps restant " + currentTimer/1000);
 }
 
 function startFirstPreuve(){
@@ -166,5 +166,5 @@ window.onload = function(){
         element.parentNode.removeChild(element);
         $("#submit-group").prop('disabled',false);
     }
-
+    $("#activ-js").addClass("hidden");
 }

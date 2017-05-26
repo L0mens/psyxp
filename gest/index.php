@@ -56,8 +56,9 @@
     </tbody>
 </table>
 
-<button>Génerer</button>
-
+<form action="generate.php" method="post">
+    <input type="submit" value="Générer">
+</form>
 <table id="table-result" class="tableau">
     <caption>Tableau des résultats</caption>
     <thead>

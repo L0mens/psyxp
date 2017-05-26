@@ -34,6 +34,20 @@ body{
 
 }
 
+#activ-js{
+    background: #f2e3d2;
+    width : 300px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px;
+
+}
+
+#btn-valid[disabled]{
+    display: none;
+}
+
 #page-avert p{
     text-align: justify;
     margin: 20px 0px;

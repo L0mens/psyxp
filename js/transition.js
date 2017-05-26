@@ -25,7 +25,7 @@ $("#calcul").click(function (e) {
     $( ".selected-word" ).each(function( index ) {
 
         var coord = $(this)[0].id.split("-");
-        console.log(coord[0] + ";" + coord[1]);
+       // console.log(coord[0] + ";" + coord[1]);
         // console.log( index + ":" + $(this).children(":first").text() );
     });
     $("#page-liste-mot").toggleClass("hidden");
@@ -36,7 +36,7 @@ $("#calcul").click(function (e) {
  Gestion de la réponse a la question du type de classe
  */
 $(".btn-check-segpa").click(function (e) {
-    console.log($('input[name="segpa"]:checked').val());
+    //console.log($('input[name="segpa"]:checked').val());
 });
 
 
@@ -51,7 +51,7 @@ $(".rep-choice input:radio").change(function(){
             all_answered++;
         }
     });
-    console.log(all_answered);
+    //console.log(all_answered);
     if(all_answered == 12){
         $(".valid-btn").prop('disabled', false);
     }

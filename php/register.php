@@ -7,7 +7,7 @@
  */
 
 $debug=FALSE;
-$nowamp =TRUE;
+$nowamp =FALSE;
 
 try{
     if($nowamp){

@@ -34,7 +34,9 @@ if(!ISSET($_GET['cs']) || strcmp($_GET['cs'],"y") !== 0){
             </p>
             <form action="index.php" method="get">
                 <input type="hidden" name="cs" value="y" />
-                <input class="submit-button" type="submit" name="sub" value="J'accèpte" />
+                <div><label><input type="checkbox" name="check-valid" id="cb-valid" value=""/>  J'accepte d'y participer</label>
+                </div>
+                <input class="submit-button" id="btn-valid" type="submit" name="sub" value="Suivant" disabled/>
             </form>
         </div>
 <?php }
@@ -55,8 +57,13 @@ else {
             </div>
         </form>
     </div>
+    <div id="activ-js">
+        <a href="http://www.enable-javascript.com/fr/">Cliquez ici pour savoir comment activer Javascript</a>
+    </div>
     <?php
 }?>
+
+
 
 <script
     src="https://code.jquery.com/jquery-3.1.1.slim.js"
@@ -64,6 +71,7 @@ else {
     crossorigin="anonymous"></script>
 <script src="js/function.js"></script>
 <script src="js/transition.js"></script>
+<script src="js/formverif.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
