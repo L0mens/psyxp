@@ -34,7 +34,7 @@
 
 <div id="mrgo-2-4" class="consigne hidden">
 
-    <p>Ne réponds pas comme tu penses qu'il est bien de répondre mais par rapport à tes vrais buts.
+    <p>Ne réponds pas comme tu penses qu'il est bien de répondre mais par rapport à tes vrais buts. Tu n’as pas de limite de temps pour répondre.
     </p>
     <button id ="btn-suivant-mrgo-2-4" class="btn-suivant-consigne" onclick="startSecondPreuve()">Suivant</button>
 </div>

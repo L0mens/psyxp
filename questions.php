@@ -13,7 +13,10 @@
         1 : Pas du tout vrai pour moi<br/>
         5 : Extrêmement vrai pour moi<br/>
     </p>
-
+    <p>
+        Aptitude : Capacité naturelle qui rend possible certaines performances.<br/>
+        Compétences : Capacité reconnue dans un domaine.<br/>
+    </p>
 </div>
 
 <form class="questionnaire container-fluid ">
@@ -24,6 +27,8 @@
         <div class="col-sm-1 col-md-1 col-lg-1 note">3</div>
         <div class="col-sm-1 col-md-1 col-lg-1 note">4</div>
         <div class="col-sm-1 col-md-1 col-lg-1 note">5</div>
+    </div>
+    <div>
     </div>
     <?php
     $listeQ = [];
