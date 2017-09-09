@@ -15,24 +15,23 @@
 
 <div id="mcso-2-2" class="consigne hidden">
 
-    <p>Tu vas passer un questionnaire qui permet de prédire ton niveau en français à la fin
-        du collège.
+    <p>Tu vas passer un questionnaire conçu pour évaluer le potentiel de réussite en français.
 </p>
     <button id ="btn-suivant-mcso-2-2" class="btn-suivant-consigne" onclick="switchConsigne('mcso','2-3')">Suivant</button>
 </div>
 
 <div id="mcso-2-3" class="consigne hidden">
 
-    <p>Tu connaitras ton résultat mais nous nous ne le connaitrons pas.<br><br />
-        Et tu sauras si ta performance personnelle est différente de celle des élèves qui sont en SEGPA.
+    <p>Le résultat de ce questionnaire est individuel et anonyme.
+        Autrement dit, toi seul connaitra ton potentiel personnel, même les chercheurs ne le connaitrons pas. Ainsi, tu pourras comparer ton potentiel personnel, à celui des élèves de SEGPA
     </p>
     <button id ="btn-suivant-mcso-2-3" class="btn-suivant-consigne" onclick="switchConsigne('mcso','2-4')">Suivant</button>
 </div>
 
 <div id="mcso-2-4" class="consigne hidden">
 
-    <p>Ne réponds pas comme tu penses qu'il est bien de répondre mais par rapport à tes vrais buts. Tu n’as pas de limite de temps pour répondre.
+    <p>Ne réponds pas comme tu penses qu'il est bien de répondre mais par rapport à tes vrais buts. Tu n’a pas de limite de temps pour répondre.
     </p>
-    <button id ="btn-suivant-mcso-2-4" class="btn-suivant-consigne" onclick="startSecondPreuve()">Suivant</button>
+    <button id ="btn-suivant-mcso-2-4" class="btn-suivant-consigne" onclick="startSecondPreuve()">Je m’y engage</button>
 </div>
 

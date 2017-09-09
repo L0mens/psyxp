@@ -29,6 +29,9 @@ catch (Exception $e)
 
 
 $idOK = FALSE;
+$nomOK = FALSE;
+$prenomOK = FALSE;
+$naissanceOK = false;
 $ageOK = FALSE;
 $codeXPOK = FALSE;
 $sexeOK = FALSE;
@@ -41,28 +44,28 @@ $xp2OK = FALSE;
 $goodID = "";
 $goodEtab = "Autre";
 
-if(isset($_GET['id'])){
+if(isset($_GET['prenom']) && isset($_GET['nom']) && isset($_GET['naissance'])){
     $r1 = rand(0,9);
     $r2 = rand(0,9);
     $r3 = rand(0,9);
     $r4 = rand(0,9);
-    if(strlen($_GET['id']) == 12){
-        $goodID = $_GET['id'].$r1.$r2.$r3.$r4;
-        $idOK = TRUE;
-    }
+    $p = strtoupper(substr($_GET['prenom'], 0 , 2));
+    $n = strtoupper(substr($_GET['nom'], 0 , 2));
+    $dn = str_replace("/","", $_GET['naissance']) ;
+    $goodID = $p . $n . $dn .$r1.$r2.$r3.$r4;
+    $idOK = TRUE;
+
+    $date = DateTime::createFromFormat("d/m/Y", $_GET['naissance']);
+    $now = new DateTime("now");
+    $annee = date_diff($date , $now )->format("%Y");
+    $ageOK = TRUE;
     if($debug){
         $foo = ($idOK) ? 'true' : 'false';
         echo "IDOK : ". $foo . "\n";
-        echo "Length : " . strlen($_GET['id']) . "\n";
     }
 
 }
 
-if(isset($_GET['age'])){
-    if(intval($_GET['age']) > 0 && intval($_GET['age']) < 99){
-        $ageOK = TRUE;
-    }
-}
 
 if(isset($_GET['codeXP'])){
     if(strlen($_GET['codeXP']) == 4 || strlen($_GET['codeXP']) == 3)
@@ -127,7 +130,7 @@ if($idOK && $ageOK && $dysOK && $classeOK && $codeXPOK && $etabOK && $postalOK &
             'id' => $goodID,
             'segpa' => $_GET['segpa'],
             'codexp' => $_GET['codeXP'],
-            'age' => $_GET['age'],
+            'age' => $annee,
             'sexe' => $_GET['sexe'],
             'classe' => $_GET['classe'],
             'dys' => $_GET['dys'],

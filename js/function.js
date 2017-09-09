@@ -66,7 +66,9 @@ function gestionXP2(){
 }
 
 function gestionForm(){
-    var identifiantF = $("#input-id").val();
+    var prenomF = $("#input-prenom").val();
+    var nomF = $("#input-nom").val();
+    var naissanceF = $("#input-naissance").val();
     var ageF = parseInt($("#input-age").val());
     var sexeF = $("input:radio[name=sexe]:checked").val();
     var classeF = parseInt($("input:radio[name=classe]:checked").val());
@@ -76,7 +78,9 @@ function gestionForm(){
     var segpaF = $("input:radio[name=segpa]:checked").val();
 
     eleve = {
-        id:identifiantF ,
+        prenom: prenomF ,
+        nom: nomF,
+        naissance: naissanceF,
         codeXP: codeXp,
         segpa: segpaF,
         age:ageF ,
@@ -98,7 +102,9 @@ function register(){
     $.get(
         'php/register.php',
         {
-            id : eleve.id ,
+            nom : eleve.nom,
+            prenom : eleve.prenom,
+            naissance : eleve.naissance,
             codeXP : eleve.codeXP,
             segpa : eleve.segpa,
             age : eleve.age ,

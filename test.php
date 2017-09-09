@@ -66,14 +66,17 @@
         <p>Tes réponses ont bien été enregistrées. Merci de bien vouloir remplir ce formulaire.</p>
         <div id="info-form">
             <div>
-                <label>Identifiant : </label>
-                <input type="text" id="input-id" name="id" size="12"/>
-                <div>2 premières lettres de ton Prénom et Nom, en majuscule + jjmmaaaa de naissance.<br>
-                        Ex : Jade Dupond née le 9 mars 2002 : JADU09032002 <br></div>
+                <label>Prénom : </label>
+                <input type="text" id="input-prenom" name="prenom" size="20"/>
             </div>
             <div>
-                <label>Age : </label>
-                <input type="text" id="input-age" name="age" size="2"/>
+                <label>Nom : </label>
+                <input type="text" id="input-nom" name="nom" size="20"/>
+            </div>
+            <div>
+                <label>Date de Naissance : </label>
+                <input type="text" id="input-naissance" name="naissance" size="20"/>
+                <div>Au format JJ/MM/AAAA (J = jour, M = mois, A = année)<br></div>
             </div>
             <div>
                 <label>Sexe : </label>
@@ -109,7 +112,10 @@
 <div id="page-fin" class="hidden">
     <div class="consigne">
         <p id="valid-text-final">Chargement....</p>
-        <p id="debrief-text">Tu viens de participer à une expérience de psychologie sur les stéréotypes et les buts d’accomplissements. Une explication orale te sera donnée sur les objectifs de cette étude. Nous te remercions de ta participation.
+        <p id="debrief-text">Tu viens de participer à une étude de psychologie sur les stéréotypes et les buts d’accomplissements.
+            Les stéréotypes sont des croyances, souvent négatives, qui portent sur un groupe de personne. Dans cette étude les chercheurs veulent savoir si le fait que les élèves de SEGPA soient stéréotypés comme moins bons en français peut réduire leurs performances dans cette matière.
+            Ils cherchent aussi à déterminer si cela amène ces élèves à choisir comme but de ne pas démontrer d’incompétence. Les chercheurs communiqueront les conclusions de leur étude à ton établissement. En attendant, merci de ne pas parler de cette expérience avec les autres élèves pour ne pas les influencer quand ils devront la passer. Les chercheurs te remercient pour ta participation et ta discrétion.
+            L’équipe de recherche.
         </p>
         <a href="index.php">Retour à l'accueil</a>
     </div>

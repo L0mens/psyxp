@@ -11,10 +11,13 @@ var idok = false;
 var ageok = false;
 var etabok = false;
 var postalok =false;
+var naissanceok = false;
+var nomok = false;
+var prenomok = false;
 
 
 function verifok(){
-    if(idok && ageok && etabok && postalok){
+    if(prenomok && nomok && naissanceok  && etabok && postalok){
         $("#valid-btn-info-form").prop('disabled',false);
     }
     else{
@@ -39,14 +42,6 @@ $("#input-id").on('input',function() {
     verifok();
 });
 
-$("#input-age").on('input',function() {
-    if($("#input-age").val() > 1 && $("#input-age").val() < 100){
-        ageok=true;
-    }else{
-        ageok=false;
-    }
-    verifok();
-});
 
 $("#input-etab").on('input',function() {
     if($("#input-etab").val().length > 0){
@@ -70,4 +65,36 @@ $("#input-postal").on('input',function() {
 
 $( "#cb-valid" ).on( "click", function(){
     $("#btn-valid").prop("disabled",!this.checked);
+});
+
+$("#input-nom").on('input',function() {
+    if($("#input-nom").val().length > 1){
+        nomok=true;
+    }else{
+        nomok=false;
+    }
+    verifok();
+});
+
+$("#input-prenom").on('input',function() {
+    if($("#input-prenom").val().length > 1){
+        prenomok=true;
+    }else{
+        prenomok=false;
+    }
+    verifok();
+});
+
+$("#input-naissance").on('input',function() {
+
+    console.log("test naissance");
+    if($("#input-naissance").val().match(/^(0{1}[1-9]|[12][0-9]|3[01])[\/](0{1}[1-9]|1[012])[\/]\d{4}$/)){
+
+        var date = $("#input-naissance").val().split("/");
+        console.log(date[0] + " /// " + date[1] + " //// " + date[2]);
+        naissanceok=true;
+    }else{
+        naissanceok=false;
+    }
+    verifok();
 });

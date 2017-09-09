@@ -18,24 +18,22 @@
 
 <div id="mrpo-2-2" class="consigne hidden">
 
-    <p>Tu vas passer un questionnaire qui permet de prédire ton niveau en français à la fin
-        du collège.
+    <p>Tu vas passer un questionnaire conçu pour évaluer le potentiel de réussite en français.
     </p>
     <button id ="btn-suivant-mrpo-2-2" class="btn-suivant-consigne" onclick="switchConsigne('mrpo','2-3')">Suivant</button>
 </div>
 
 <div id="mrpo-2-3" class="consigne hidden">
 
-    <p>Tu ne connaitras pas ni  ton résultat ni le résultat de ton groupe. <br><br />
-        Nous ne connaitrons pas non plus ton résultat personnel mais nous saurons si la performance moyenne des élèves de SEGPA est différente de celle des élèves qui ne sont pas en SEGPA. <br><br />
-        Ta performance sera déterminante dans la moyenne de ton groupe.
+    <p>Le résultat de ce questionnaire est individuel et visible par les chercheurs.
+        Autrement dit, seuls les chercheurs connaitront ton potentiel personnel, pas même toi. Ainsi, ils compareront ton potentiel personnel à celui des élèves de SEGPA.
     </p>
     <button id ="btn-suivant-mrpo-2-3" class="btn-suivant-consigne" onclick="switchConsigne('mrpo','2-4')">Suivant</button>
 </div>
 
 <div id="mrpo-2-4" class="consigne hidden">
 
-    <p>Ne réponds pas comme tu penses qu'il est bien de répondre mais par rapport à tes vrais buts. Tu n’as pas de limite de temps pour répondre.
+    <p>Ne réponds pas comme tu penses qu'il est bien de répondre mais par rapport à tes vrais buts. Tu n’a pas de limite de temps pour répondre.
     </p>
-    <button id ="btn-suivant-mrpo-2-4" class="btn-suivant-consigne" onclick="startSecondPreuve()">Suivant</button>
+    <button id ="btn-suivant-mrpo-2-4" class="btn-suivant-consigne" onclick="startSecondPreuve()">Je m’y engage</button>
 </div>
