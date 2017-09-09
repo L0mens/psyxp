@@ -7,12 +7,12 @@
  */
 
 $debug=FALSE;
-$nowamp =FALSE;
+$nowamp =TRUE;
 
 try{
     if($nowamp){
         /* BDD M$ AZURE*/
-        $bdd = new PDO('mysql:host=eu-cdbr-azure-west-c.cloudapp.net;dbname=LmSBD;charset=utf8', 'b4276ec7494d84', '1303b9ec',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    include("co_string.php");
 
     }else{
         $bdd = new PDO('mysql:host=localhost;dbname=psyxp;charset=utf8', 'root', '',
@@ -125,7 +125,7 @@ if(isset($_GET['xp2'])){
 
 if($idOK && $ageOK && $dysOK && $classeOK && $codeXPOK && $etabOK && $postalOK && $sexeOK){
     if($xp1OK && $xp2OK){
-        $req = $bdd->prepare('INSERT INTO passage VALUES(:id, :segpa, :codexp, :age, :sexe, :classe, :dys, :etabli, :postal, :xp1, :xp2)');
+        $req = $bdd->prepare('INSERT INTO passage VALUES(:id, :segpa, :codexp, :age, :sexe, :classe, :dys, :etabli, :postal, :xp1, :xp2, NOW())');
         $req->execute(array(
             'id' => $goodID,
             'segpa' => $_GET['segpa'],
