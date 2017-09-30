@@ -29,7 +29,7 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>Segpa</th>
+            <th>SEGPA</th>
             <th>Code XP</th>
             <th>Age</th>
             <th>Sexe</th>
@@ -42,7 +42,7 @@
     <tbody>
     <?php while($data = $req->fetch()){?>
         <tr>
-            <td><?php echo $data['id']?></td>
+            <td><?php echo substr($data['id'],0,-4)?></td>
             <td><?php echo $data['segpa']?></td>
             <td><?php echo $data['codexp']?></td>
             <td><?php echo $data['age']?></td>
@@ -64,11 +64,16 @@
     <thead>
     <tr>
         <th>ID</th>
-        <th>Good</th>
-        <th>Bad</th>
+        <th>Animaux CL(A)</th>
+        <th>Animaux NC(B)</th>
+        <th>Non-Animaux CL(C)</th>
         <th>Score</th>
-        <th>BMA</th>
-        <th>BME</th>
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+        <th>Q4</th>
+        <th>Q5</th>
+        <th>Q6</th>
         <th>BPE</th>
         <th>BPA</th>
     </tr>
@@ -78,12 +83,17 @@
     $req = $bdd->query("SELECT * FROM result");
      while($data = $req->fetch()){?>
         <tr>
-            <td><?php echo $data['id_eleve']?></td>
+            <td><?php echo substr($data['id_eleve'],0,-4)?></td>
             <td><?php echo $data['b_rep']?></td>
-            <td><?php echo $data['m_rep']?></td>
+            <td><?php echo $data['m_rep_nc']?></td>
+            <td><?php echo $data['m_rep_cl']?></td>
             <td><?php echo $data['score']?></td>
-            <td><?php echo $data['bma']?></td>
-            <td><?php echo $data['bme']?></td>
+            <td><?php echo $data['q_rep'][0]?></td>
+            <td><?php echo $data['q_rep'][1]?></td>
+            <td><?php echo $data['q_rep'][2]?></td>
+            <td><?php echo $data['q_rep'][3]?></td>
+            <td><?php echo $data['q_rep'][4]?></td>
+            <td><?php echo $data['q_rep'][5]?></td>
             <td><?php echo $data['bpa']?></td>
             <td><?php echo $data['bpe']?></td>
         </tr>

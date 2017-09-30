@@ -9,6 +9,19 @@
 ?>
 
 <div class="consigne-large">
+    <?php
+        switch($codeMin){
+            case "mcss": echo"Le résultat du test précédent était individuel et anonyme.<br /> "; break;
+            case "mcso": echo"Le résultat du test précédent était individuel et anonyme. <br />"; break;
+            case "mcgs": echo"Le résultat du test précédent était collectif et anonyme. <br />"; break;
+            case "mcgo": echo"Le résultat du test précédent était collectif et anonyme. <br />"; break;
+            case "mrgs": echo"Le résultat du test précédent était collectif et visible par les chercheurs. <br />"; break;
+            case "mrgo": echo"Le résultat du test précédent était collectif et visible par les chercheurs. <br />"; break;
+            case "mrps": echo"Le résultat du test précédent était individuel et visible par les chercheurs. <br />"; break;
+            case "mrpo": echo"le résultat du test précédent était individuel et visible par les chercheurs. <br />"; break;
+        }
+    ?>
+
     <p>Indique dans quelle mesure les buts ci-dessous sont vrais pour toi de 1 à 5 :<br/>
         1 : Pas du tout vrai pour moi<br/>
         5 : Extrêmement vrai pour moi<br/>

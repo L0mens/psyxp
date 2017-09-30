@@ -23,7 +23,7 @@
 <div id="mcso-1-3" class="consigne hidden">
     <form>
         <label>En quelle classe es-tu ?</label>
-        <input type="radio" name="segpa" value="true" checked>Segpa <br>
+        <input type="radio" name="segpa" value="true" checked>SEGPA <br>
         <input type="radio" name="segpa" value="false">Classe générale<br>
     </form>
 
@@ -33,14 +33,14 @@
 <div id="mcso-1-4" class="consigne hidden">
 
     <p>Le résultat de ce test est individuel et anonyme. <br /><br />
-        Autrement dit, toi seul connaitra ta performance personnelle, même les chercheurs ne la connaitront pas. Ainsi, tu pourras comparer ta performance personnelle à celle des élèves de SEGPA
+        Autrement dit, toi seul connaitra ta performance personnelle, même les chercheurs ne la connaitront pas. Ainsi, tu pourras comparer ta performance personnelle à celle des élèves de SEGPA.
     </p>
     <button id ="btn-suivant-mcso-1-4" class="btn-suivant-consigne" onclick="switchConsigne('mcso','1-5')">Suivant</button>
 </div>
 
 <div id="mcso-1-5" class="consigne hidden">
     <h2>Consigne</h2>
-    <p>Clique sur le plus de noms d’animaux possible dans la liste.<br /> La police changera alors de couleur.<br /> En cas d’erreur tu pourras décliquer.<br /> Attention !<br /> Tu dois utiliser le sens naturel de lecture (de gauche à droite, ligne par ligne).<br />Tu auras un temps limité dès que l’épreuve s’affichera.<br /> Pour être plus rapide, utilise les flèches directionnelles de ton clavier.<br><br />
+    <p>Clique sur le plus de noms d’animaux possible dans la liste.<br /> Le mot changera alors de couleur.<br /> En cas d’erreur tu pourras décliquer.<br /> Attention !<br /> Tu dois utiliser le sens naturel de lecture (de gauche à droite, ligne par ligne).<br />Tu auras un temps limité dès que l’épreuve s’affichera.<br /> Pour être plus rapide, utilise les flèches directionnelles de ton clavier.<br><br />
 </p>
     <button id ="btn-suivant-mcso-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer</button>
 </div>

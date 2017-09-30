@@ -40,9 +40,9 @@
     <div id="valid-xp1" class="consigne-mini">
         <?php
         if($codeMin == "mrs" || $codeMin == "mro")
-            echo("<p>Temps du jeu écoulé</p>");
+            echo("<p>Durée écoulée</p>");
         else
-            echo ("<p>Temps écoulé</p>");
+            echo ("<p>Durée écoulée</p>");
         ?>
 
         <button id ="btn-start-seconde-xp" class="btn-suivant-consigne" onclick="startSecondConsigne()">Suivant</button>
@@ -113,8 +113,12 @@
     <div class="consigne">
         <p id="valid-text-final">Chargement....</p>
         <p id="debrief-text">Tu viens de participer à une étude de psychologie sur les stéréotypes et les buts d’accomplissements.
-            Les stéréotypes sont des croyances, souvent négatives, qui portent sur un groupe de personne. Dans cette étude les chercheurs veulent savoir si le fait que les élèves de SEGPA soient stéréotypés comme moins bons en français peut réduire leurs performances dans cette matière.
-            Ils cherchent aussi à déterminer si cela amène ces élèves à choisir comme but de ne pas démontrer d’incompétence. Les chercheurs communiqueront les conclusions de leur étude à ton établissement. En attendant, merci de ne pas parler de cette expérience avec les autres élèves pour ne pas les influencer quand ils devront la passer. Les chercheurs te remercient pour ta participation et ta discrétion.
+            Les stéréotypes sont des croyances, souvent négatives, qui portent sur un groupe de personne.
+            Dans cette étude les chercheurs veulent savoir si le fait que les élèves de SEGPA soient stéréotypés comme moins bons en français peut réduire leurs performances dans cette matière.
+            Ils cherchent aussi à déterminer si cela amène ces élèves à choisir comme but de ne pas démontrer d’incompétence. <br />
+            Les chercheurs communiqueront les conclusions de leur étude à ton établissement. <br />
+            En attendant, merci de ne pas parler de cette expérience avec les autres élèves pour ne pas les influencer quand ils devront la passer. <br /><br />
+            Les chercheurs te remercient pour ta participation et ta discrétion.
             L’équipe de recherche.
         </p>
         <a href="index.php">Retour à l'accueil</a>

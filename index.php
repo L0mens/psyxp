@@ -27,7 +27,7 @@ if(!ISSET($_GET['cs']) || strcmp($_GET['cs'],"y") !== 0){
     ?>
         <div id="page-avert" class="page">
             <p>
-                1.	Tu vas participer à une étude concernant la réussite au collège. Tu vas réaliser un court test puis répondre à un questionnaire sur tes buts réels. La durée de l’étude est d’environ 20 minutes.
+                Tu vas participer à une étude concernant l’accomplissement scolaire au collège. Tu vas réaliser un test court puis répondre à un questionnaire sur tes buts personnels. La durée de l’étude est d’environ 20 minutes.
             </p>
             <p>
                 Tu es libre d’arrêter de participer à tout moment. Les données et les résultats te concernant sont confidentiels. Seule l’équipe de chercheurs, désignée par le directeur de recherche, peut y avoir accès.

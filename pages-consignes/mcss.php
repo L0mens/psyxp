@@ -24,7 +24,7 @@
 <div id="mcss-1-3" class="consigne hidden">
     <form>
         <label>En quelle classe es-tu ?</label>
-        <input type="radio" name="segpa" value="true" checked>Segpa <br>
+        <input type="radio" name="segpa" value="true" checked>SEGPA <br>
         <input type="radio" name="segpa" value="false">Classe générale<br>
     </form>
 
@@ -41,7 +41,7 @@
 
 <div id="mcss-1-5" class="consigne hidden">
     <h2>Consigne</h2>
-    <p>Clique sur le plus de noms d’animaux possible dans la liste.<br /> La police changera alors de couleur.<br /> En cas d’erreur tu pourras décliquer.<br /> Attention !<br /> Tu dois utiliser le sens naturel de lecture (de gauche à droite, ligne par ligne).<br />Tu auras un temps limité dès que l’épreuve s’affichera.<br /> Pour être plus rapide, utilise les flèches directionnelles de ton clavier.
+    <p>Clique sur le plus de noms d’animaux possible dans la liste.<br /> Le mot changera alors de couleur.<br /> En cas d’erreur tu pourras décliquer.<br /> Attention !<br /> Tu dois utiliser le sens naturel de lecture (de gauche à droite, ligne par ligne).<br />Tu auras un temps limité dès que l’épreuve s’affichera.<br /> Pour être plus rapide, utilise les flèches directionnelles de ton clavier.
     </p>
     <button id ="btn-suivant-mcss-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer</button>
 </div>

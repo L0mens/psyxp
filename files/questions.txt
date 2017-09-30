@@ -1,12 +1,6 @@
-1. ...mon attention est portée sur le fait de développer mes savoirs.
-2. ...mon objectif est de développer des aptitudes.
-3. ...mon but est d'accroitre ma compétence.
-4. ...mon but est d'éviter une perte d'aptitudes
-5. ...mon attention est portée sur le fait de ne pas devenir moins compétent
-6. ...mon objectif est d'éviter de perdre mes savoirs
-7. ...mon but est de démontrer des aptitudes
-8. ...mon objectif est de montrer de la compétence
-9. ...mon attention est portée sur le fait de démontrer que je dispose de compétences
-10. ...mon objectif est d'éviter de montrer de l'incompétence
-11. ...mon attention est portée sur le fait de ne pas démontrer des inaptitudes
-12. ...mon but est d'éviter de démontrer que je manque de connaissances
+1. ...mon but était de démontrer des aptitudes
+2. ...mon objectif était de montrer de la compétence
+3. ...mon attention était portée sur le fait de démontrer que je dispose de compétences
+4. ...mon objectif était d'éviter de montrer de l'incompétence
+5. ...mon attention était portée sur le fait de ne pas démontrer des inaptitudes
+6. ...mon but était d'éviter de démontrer que je manque de connaissances

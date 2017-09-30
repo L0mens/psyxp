@@ -32,10 +32,10 @@
 
 <div id="mrs-1-5" class="consigne hidden">
     <h2>Consigne</h2>
-    <p>Clique sur le plus d’animaux possible dans la liste. La police changera alors de couleur. En cas d’erreur tu pourras décliquer.<br />
+    <p>Clique sur le plus d’animaux possible dans la liste. L'élément changera alors de couleur. En cas d’erreur tu pourras décliquer.<br />
         Attention !<br />
-        Tu dois répondre ligne par ligne.<br />
-        Tu auras un temps limité dès que l’épreuve s’affichera.<br />
+        Tu dois répondre de gauche à droite, ligne par ligne.<br />
+        Tu auras un temps limité dès que le test s’affichera.<br />
         Pour être plus rapide, utilise les flèches directionnelles de ton clavier.<br />
     </p>
     <button id ="btn-suivant-mrs-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer</button>

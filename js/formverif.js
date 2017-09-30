@@ -93,6 +93,9 @@ $("#input-naissance").on('input',function() {
         var date = $("#input-naissance").val().split("/");
         console.log(date[0] + " /// " + date[1] + " //// " + date[2]);
         naissanceok=true;
+        if(date[2] > 2017 || date[2] < 1900){
+            naissanceok = false;
+        }
     }else{
         naissanceok=false;
     }

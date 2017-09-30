@@ -25,18 +25,18 @@
 <div id="mro" class="hidden">
     <form>
         <label>En quelle classe es-tu ?</label>
-        <input type="radio" name="segpa" value="true" checked >Segpa <br>
+        <input type="radio" name="segpa" value="true" checked >SEGPA <br>
         <input type="radio" name="segpa" value="false" >Classe générale <br>
     </form>
 </div>
 
 <div id="mro-1-5" class="consigne hidden">
     <h2>Consigne</h2>
-    <p>Clique sur le plus d’animaux possible dans la liste. La police changera alors de couleur. En cas d’erreur tu pourras décliquer.<br /><br />
-        Attention !<br /><br />
-        Tu dois utiliser le sens naturel de lecture (de gauche à droite, ligne par ligne).<br /><br />
-        Tu auras un temps limité dès que l’épreuve s’affichera.<br /><br />
-        Pour être plus rapide, utilise les flèches directionnelles de ton clavier.<br /><br />
+    <p>Clique sur le plus d’animaux possible dans la liste. L'élément changera alors de couleur. En cas d’erreur tu pourras décliquer.<br />
+        Attention !<br />
+        Tu dois répondre de gauche à droite, ligne par ligne.<br />
+        Tu auras un temps limité dès que le test s’affichera. <br />
+        Pour être plus rapide, utilise les flèches directionnelles de ton clavier.<br />
     </p>
     <button id ="btn-suivant-mro-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer</button>
 </div>

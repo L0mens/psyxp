@@ -8,11 +8,12 @@
 ?>
 <div class="consigne-mini">
     <p>
+        <h2>Rappel de la consigne</h2>
     <?php
         if($codeMin == "mrs" || $codeMin == "mro")
-            echo("Clique sur le plus d’animaux  possible dans la liste.");
+            echo("Clique sur le plus d’animaux possible dans la liste. L'élément changera alors de couleur, en cas d’erreur tu pourras décliquer. <br /> Réponds ligne par ligne.");
         else
-            echo ("Clique sur le plus de noms d’animaux possible dans la liste. Le mot changera alors de couleur, en cas d’erreur tu pourras décliquer. Attention, tu auras un temps limité dès que l’épreuve s’affichera. ");
+            echo ("Clique sur le plus de noms d’animaux possible dans la liste. Le mot changera alors de couleur, en cas d’erreur tu pourras décliquer. <br />Réponds ligne par ligne.");
     ?>
     </p>
 </div>

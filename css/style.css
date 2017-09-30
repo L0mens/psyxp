@@ -63,7 +63,7 @@ body{
     background: cornflowerblue;
     text-align: center;
     margin: auto;
-    padding: 30px 0px;
+    padding: 30px 50px;
     width: 70%;
     min-height: 40px;
     margin-top: 40px;
@@ -78,7 +78,7 @@ body{
     text-align: center;
     margin: auto;
     padding: 30px 0px;
-    width: 100%;
+    width: 80%;
     min-height: 40px;
     margin-top: 40px;
     border-radius: 25px;
@@ -91,17 +91,18 @@ body{
     background: cornflowerblue;
     text-align: center;
     margin: auto;
-    max-width : 600px;
+    max-width : 750px;
     min-height: 400px;
     margin-top: 40px;
     border-radius: 25px;
     line-height: 32px;
     font-size: 18px;
+    padding-bottom: 15px;
 }
 
 .consigne form{
     text-align: left;
-    margin-left: 215px;
+    margin-left: 280px;
 }
 
 .consigne h2{
@@ -145,11 +146,15 @@ body{
 
 /*LISTE MOT*/
 
+.ligne ~ .ligne{
+    padding-top: 00px;
+}
+
 .case-mot
 {
     cursor: pointer;
-    height: 65px;
-    text-align: left;
+    height: 60px;
+    text-align: center;
     display: inline-block;
     min-width : 10%;
     max-width : 16%;
@@ -179,6 +184,7 @@ body{
 }
 
 .ligne{
+    padding-top: 30px;
   max-width: 70%;
     margin: auto;
     text-align: center;
