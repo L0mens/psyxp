@@ -67,6 +67,11 @@ $( "#cb-valid" ).on( "click", function(){
     $("#btn-valid").prop("disabled",!this.checked);
 });
 
+$( "#xp1-consign-verif" ).on( "click", function(){
+    console.log("click");
+    $(".need-verif").prop("disabled",!this.checked);
+});
+
 $("#input-nom").on('input',function() {
     if($("#input-nom").val().length > 1){
         nomok=true;

@@ -38,5 +38,6 @@
         Tu auras un temps limité dès que le test s’affichera.<br />
         Pour être plus rapide, utilise les flèches directionnelles de ton clavier.<br />
     </p>
-    <button id ="btn-suivant-mrs-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer</button>
+    <label><input type="checkbox" name="check-valid" id="xp1-consign-verif" value=""/> J'ai bien lu la consigne</label>
+    <button id ="btn-suivant-mrs-1-5" class="btn-suivant-consigne need-verif" onclick="startFirstPreuve()">Démarrer</button>
 </div>

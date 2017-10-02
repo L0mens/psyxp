@@ -9,19 +9,45 @@
 ?>
 
 <div class="consigne-large">
-    <?php
-        switch($codeMin){
-            case "mcss": echo"Le résultat du test précédent était individuel et anonyme.<br /> "; break;
-            case "mcso": echo"Le résultat du test précédent était individuel et anonyme. <br />"; break;
-            case "mcgs": echo"Le résultat du test précédent était collectif et anonyme. <br />"; break;
-            case "mcgo": echo"Le résultat du test précédent était collectif et anonyme. <br />"; break;
-            case "mrgs": echo"Le résultat du test précédent était collectif et visible par les chercheurs. <br />"; break;
-            case "mrgo": echo"Le résultat du test précédent était collectif et visible par les chercheurs. <br />"; break;
-            case "mrps": echo"Le résultat du test précédent était individuel et visible par les chercheurs. <br />"; break;
-            case "mrpo": echo"le résultat du test précédent était individuel et visible par les chercheurs. <br />"; break;
+    <p>
+        <?php
+        if($codeMin == "mrs" || $codeMin == "mro"){ echo " ";}
+        else {
+            echo "Nous te rappelons que ";
+            ?>
+
+            <?php
+            switch ($codeMin) {
+                case "mcss":
+                    echo "le résultat du test précédent était individuel et anonyme.<br /> ";
+                    break;
+                case "mcso":
+                    echo "le résultat du test précédent était individuel et anonyme. <br />";
+                    break;
+                case "mcgs":
+                    echo "le résultat du test précédent était collectif et anonyme. <br />";
+                    break;
+                case "mcgo":
+                    echo "le résultat du test précédent était collectif et anonyme. <br />";
+                    break;
+                case "mrgs":
+                    echo "le résultat du test précédent était collectif et visible par les chercheurs. <br />";
+                    break;
+                case "mrgo":
+                    echo "le résultat du test précédent était collectif et visible par les chercheurs. <br />";
+                    break;
+                case "mrps":
+                    echo "le résultat du test précédent était individuel et visible par les chercheurs. <br />";
+                    break;
+                case "mrpo":
+                    echo "le résultat du test précédent était individuel et visible par les chercheurs. <br />";
+                    break;
+            }
+            echo "<br />";
         }
     ?>
 
+    </p>
     <p>Indique dans quelle mesure les buts ci-dessous sont vrais pour toi de 1 à 5 :<br/>
         1 : Pas du tout vrai pour moi<br/>
         5 : Extrêmement vrai pour moi<br/>
@@ -34,7 +60,7 @@
 
 <form class="questionnaire container-fluid ">
     <div class="row tete-row">
-        <div class="col-sm-7 col-md-7 col-lg-7 desc">En français...</div>
+        <div class="col-sm-7 col-md-7 col-lg-7 desc">Au test précédent...</div>
         <div class="col-sm-1 col-md-1 col-lg-1 note">1</div>
         <div class="col-sm-1 col-md-1 col-lg-1 note">2</div>
         <div class="col-sm-1 col-md-1 col-lg-1 note">3</div>

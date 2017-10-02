@@ -46,5 +46,6 @@
     <h2>Consigne</h2>
     <p>Clique sur le plus de noms d’animaux possible dans la liste.<br /> Le mot changera alors de couleur.<br /> En cas d’erreur tu pourras décliquer.<br /> Attention !<br /> Tu dois utiliser le sens naturel de lecture (de gauche à droite, ligne par ligne).<br />Tu auras un temps limité dès que l’épreuve s’affichera.<br /> Pour être plus rapide, utilise les flèches directionnelles de ton clavier.
     </p>
-    <button id ="btn-suivant-mrgo-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer</button>
+    <label><input type="checkbox" name="check-valid" id="xp1-consign-verif" value=""/> J'ai bien lu la consigne</label>
+    <button id ="btn-suivant-mrgo-1-5" class="btn-suivant-consigne need-verif" onclick="startFirstPreuve()">Démarrer</button>
 </div>

@@ -37,7 +37,7 @@
     <p>Le résultat de ce test est collectif et anonyme. <br /><br />
         Autrement dit, toi seul connaitra la performance collective des élèves de classe générale, même les chercheurs ne la connaitront pas.
         Ainsi, tu pourras comparer la performance collective des élèves de classe générale à celle des élèves de SEGPA.<br /><br />
-        En revanche, personne ne connaitra ta performance personnelle (ni toi, ni les chercheurs) pourtant elle sera déterminante dans le résultat de ta classe.»
+        En revanche, personne ne connaitra ta performance personnelle (ni toi, ni les chercheurs) pourtant elle sera déterminante dans le résultat de ta classe.
     </p>
     <button id ="btn-suivant-mcgo-1-4" class="btn-suivant-consigne" onclick="switchConsigne('mcgo','1-5')">Suivant</button>
 </div>
@@ -52,5 +52,7 @@
         Tu auras un temps limité dès que l’épreuve s’affichera.<br />
         Pour être plus rapide, utilise les flèches directionnelles de ton clavier.<br><br />
     </p>
-    <button id ="btn-suivant-mcgo-1-5" class="btn-suivant-consigne" onclick="startFirstPreuve()">Démarrer</button>
+    <label><input type="checkbox" name="check-valid" id="xp1-consign-verif" value=""/> J'ai bien lu la consigne</label>
+
+    <button id ="btn-suivant-mcgo-1-5" class="btn-suivant-consigne need-verif" disabled onclick="startFirstPreuve() ">Démarrer</button>
 </div>

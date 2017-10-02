@@ -118,7 +118,7 @@
             Ils cherchent aussi à déterminer si cela amène ces élèves à choisir comme but de ne pas démontrer d’incompétence. <br />
             Les chercheurs communiqueront les conclusions de leur étude à ton établissement. <br />
             En attendant, merci de ne pas parler de cette expérience avec les autres élèves pour ne pas les influencer quand ils devront la passer. <br /><br />
-            Les chercheurs te remercient pour ta participation et ta discrétion.
+            Les chercheurs te remercient pour ta participation et ta discrétion.<br />
             L’équipe de recherche.
         </p>
         <a href="index.php">Retour à l'accueil</a>
