@@ -8,17 +8,19 @@
 
 include("bdd.php");
 
+if(!ISSET($is_required)) {
 
-$r_id;
-$xp1 = array();
-$xp2 = array();
-$file = file('../files/chainet');
-$soluce = $file[0];
 
-$reqP = $bdd->query("SELECT * FROM passage");
-dropInBD($bdd);
-while($data = $reqP->fetch()){
-    $r_id = $data['id'];
+    $r_id;
+    $xp1 = array();
+    $xp2 = array();
+    $file = file('../files/chainet');
+    $soluce = $file[0];
+
+    $reqP = $bdd->query("SELECT * FROM passage");
+    dropInBD($bdd);
+    while ($data = $reqP->fetch()) {
+        $r_id = $data['id'];
         /*echo $data['segpa'];
             echo $data['codexp'];
         echo $data['age'];
@@ -28,17 +30,17 @@ while($data = $reqP->fetch()){
             echo $data['etablissement'];
             echo $data['postal'];
         */
-        echo('ID : '. $r_id.'<br/>');
+        echo('ID : ' . $r_id . '<br/>');
         $xp2 = quest_xp_analys($data['xp2']);
-        echo(" BPA ".$xp2[0]." BPE " . $xp2[1].'<br/>');
+        echo(" BPA " . $xp2[0] . " BPE " . $xp2[1] . '<br/>');
         $xp1 = rat_xp_analys($data['xp1'], $soluce);
         var_dump($xp1);
-        insertToBD($bdd,$r_id,$xp1,$xp2);
+        insertToBD($bdd, $r_id, $xp1, $xp2);
+    }
+    $reqP->closeCursor();
+
+    header('Location: index.php');
 }
-$reqP->closeCursor();
-
-header('Location: index.php');
-
 
 function rat_xp_analys($input, $solution){
     $out = array();

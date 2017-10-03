@@ -39,5 +39,5 @@
         Pour être plus rapide, utilise les flèches directionnelles de ton clavier.<br />
     </p>
     <label><input type="checkbox" name="check-valid" id="xp1-consign-verif" value=""/> J'ai bien lu la consigne</label>
-    <button id ="btn-suivant-mrs-1-5" class="btn-suivant-consigne need-verif" onclick="startFirstPreuve()">Démarrer</button>
+    <button id ="btn-suivant-mrs-1-5" class="btn-suivant-consigne need-verif" disabled onclick="startFirstPreuve()">Démarrer</button>
 </div>
