@@ -112,13 +112,11 @@
 <div id="page-fin" class="hidden">
     <div class="consigne">
         <p id="valid-text-final">Chargement....</p>
-        <p id="debrief-text">Tu viens de participer à une étude de psychologie sur les stéréotypes et les buts d’accomplissements.
-            Les stéréotypes sont des croyances, souvent négatives, qui portent sur un groupe de personne.
-            Dans cette étude les chercheurs veulent savoir si le fait que les élèves de SEGPA soient stéréotypés comme moins bons en français peut réduire leurs performances dans cette matière.
-            Ils cherchent aussi à déterminer si cela amène ces élèves à choisir comme but de ne pas démontrer d’incompétence. <br />
-            Les chercheurs communiqueront les conclusions de leur étude à ton établissement. <br />
-            En attendant, merci de ne pas parler de cette expérience avec les autres élèves pour ne pas les influencer quand ils devront la passer. <br /><br />
-            Les chercheurs te remercient pour ta participation et ta discrétion.<br />
+        <p id="debrief-text">Tu viens de participer à une étude de sciences humaines et sociales sur les stéréotypes et les buts d’accomplissements.
+            Les stéréotypes sont des croyances attribuées à un groupe de personne, et peuvent avoir des conséquences négatives sur les objectifs que tu te fixes. <br/>
+            Nous communiquerons les conclusions de cette étude à ton établissement et tu pourras en prendre connaissance. <br />
+            En attendant, merci de ne pas en parler avec les autres élèves (pour ne pas les influencer). <br /><br />
+            Nous te remercions pour ta participation et ta discrétion.<br />
             L’équipe de recherche.
         </p>
         <a href="index.php">Retour à l'accueil</a>

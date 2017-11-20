@@ -19,28 +19,28 @@
             <?php
             switch ($codeMin) {
                 case "mcss":
-                    echo "le résultat du test précédent était individuel et anonyme.<br /> ";
+                    echo "les résultats du test précédent étaientt individuels et anonymes.<br /> ";
                     break;
                 case "mcso":
-                    echo "le résultat du test précédent était individuel et anonyme. <br />";
+                    echo "les résultats du test précédent étaientt individuels et anonymes. <br />";
                     break;
                 case "mcgs":
-                    echo "le résultat du test précédent était collectif et anonyme. <br />";
+                    echo "les résultats du test précédent étaientt collectifs et anonymes. <br />";
                     break;
                 case "mcgo":
-                    echo "le résultat du test précédent était collectif et anonyme. <br />";
+                    echo "les résultats du test précédent étaientt collectifs et anonymes. <br />";
                     break;
                 case "mrgs":
-                    echo "le résultat du test précédent était collectif et visible par les chercheurs. <br />";
+                    echo "les résultats du test précédent étaientt collectifs et visibles par les chercheurs. <br />";
                     break;
                 case "mrgo":
-                    echo "le résultat du test précédent était collectif et visible par les chercheurs. <br />";
+                    echo "les résultats du test précédent étaientt collectifs et visibles par les chercheurs. <br />";
                     break;
                 case "mrps":
-                    echo "le résultat du test précédent était individuel et visible par les chercheurs. <br />";
+                    echo "les résultats du test précédent étaientt individuels et visibles par les chercheurs. <br />";
                     break;
                 case "mrpo":
-                    echo "le résultat du test précédent était individuel et visible par les chercheurs. <br />";
+                    echo "les résultats du test précédent étaientt individuels et visibles par les chercheurs. <br />";
                     break;
             }
             echo "<br />";
@@ -48,13 +48,9 @@
     ?>
 
     </p>
-    <p>Indique dans quelle mesure les buts ci-dessous sont vrais pour toi de 1 à 5 :<br/>
+    <p>Indique dans quelle mesure les buts ci-dessous sont vrais pour toi de 1 à 7 :<br/>
         1 : Pas du tout vrai pour moi<br/>
-        5 : Extrêmement vrai pour moi<br/>
-    </p>
-    <p>
-        Aptitude : Capacité naturelle qui rend possible certaines performances.<br/>
-        Compétences : Capacité reconnue dans un domaine.<br/>
+        7 : Tout à fait vrai pour moi<br/>
     </p>
 </div>
 
@@ -66,6 +62,8 @@
         <div class="col-sm-1 col-md-1 col-lg-1 note">3</div>
         <div class="col-sm-1 col-md-1 col-lg-1 note">4</div>
         <div class="col-sm-1 col-md-1 col-lg-1 note">5</div>
+        <div class="col-sm-1 col-md-1 col-lg-1 note">6</div>
+        <div class="col-sm-1 col-md-1 col-lg-1 note">7</div>
     </div>
     <div>
     </div>
@@ -88,6 +86,8 @@
         <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="3"/></div>
         <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="4"/></div>
         <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="5"/></div>
+        <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="6"/></div>
+        <div class="col-sm-1 col-md-1 col-lg-1 radio-button"><input type="radio" name="q<?php echo($i);?> " value="7"/></div>
     </div>
     <?php
         $i++;

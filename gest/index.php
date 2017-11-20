@@ -76,6 +76,9 @@
         <th>Q6</th>
         <th>BPE</th>
         <th>BPA</th>
+        <th>BPEN</th>
+        <th>BPAM</th>
+        <th>BPEM</th>
     </tr>
     </thead>
     <tbody>
@@ -84,7 +87,7 @@
      while($data = $req->fetch()){?>
         <tr>
             <td><?php echo substr($data['id_eleve'],0,-4)?></td>
-            <td><?php echo $data['b_rep']?></td>
+            <td><?php echo $data['b_rep_cl']?></td>
             <td><?php echo $data['m_rep_nc']?></td>
             <td><?php echo $data['m_rep_cl']?></td>
             <td><?php echo $data['score']?></td>
@@ -96,6 +99,9 @@
             <td><?php echo $data['q_rep'][5]?></td>
             <td><?php echo $data['bpa']?></td>
             <td><?php echo $data['bpe']?></td>
+            <td><?php echo $data['bpen']?></td>
+            <td><?php echo $data['bpam']?></td>
+            <td><?php echo $data['bpem']?></td>
         </tr>
     <?php } $req->closeCursor();?>
     </tbody>

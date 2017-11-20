@@ -36,7 +36,7 @@
         Attention !<br />
         Tu dois répondre de gauche à droite, ligne par ligne.<br />
         Tu auras un temps limité dès que le test s’affichera. <br />
-        Pour être plus rapide, utilise les flèches directionnelles de ton clavier.<br />
+        Pour être plus rapide, utilise les flèches de ton clavier.<br />
     </p>
     <label><input type="checkbox" name="check-valid" id="xp1-consign-verif" value=""/> J'ai bien lu la consigne</label>
     <button id ="btn-suivant-mro-1-5" class="btn-suivant-consigne need-verif" disabled onclick="startFirstPreuve()">Démarrer</button>

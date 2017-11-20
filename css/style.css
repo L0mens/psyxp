@@ -116,10 +116,10 @@ body{
 }
 .consigne input[type=radio]{
     margin: 20px;
-
+    margin-left: 55px;
 }
 .consigne label{
-    /*padding-top: 50px;*/
+    padding-top: 50px;
     display: block;
 }
 
