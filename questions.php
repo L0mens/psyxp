@@ -19,28 +19,28 @@
             <?php
             switch ($codeMin) {
                 case "mcss":
-                    echo "les résultats du test précédent étaientt individuels et anonymes.<br /> ";
+                    echo "les résultats du test précédent étaient individuels et anonymes.<br /> ";
                     break;
                 case "mcso":
-                    echo "les résultats du test précédent étaientt individuels et anonymes. <br />";
+                    echo "les résultats du test précédent étaient individuels et anonymes. <br />";
                     break;
                 case "mcgs":
-                    echo "les résultats du test précédent étaientt collectifs et anonymes. <br />";
+                    echo "les résultats du test précédent étaient collectifs et anonymes. <br />";
                     break;
                 case "mcgo":
-                    echo "les résultats du test précédent étaientt collectifs et anonymes. <br />";
+                    echo "les résultats du test précédent étaient collectifs et anonymes. <br />";
                     break;
                 case "mrgs":
-                    echo "les résultats du test précédent étaientt collectifs et visibles par les chercheurs. <br />";
+                    echo "les résultats du test précédent étaient collectifs et visibles par les chercheurs. <br />";
                     break;
                 case "mrgo":
-                    echo "les résultats du test précédent étaientt collectifs et visibles par les chercheurs. <br />";
+                    echo "les résultats du test précédent étaient collectifs et visibles par les chercheurs. <br />";
                     break;
                 case "mrps":
-                    echo "les résultats du test précédent étaientt individuels et visibles par les chercheurs. <br />";
+                    echo "les résultats du test précédent étaient individuels et visibles par les chercheurs. <br />";
                     break;
                 case "mrpo":
-                    echo "les résultats du test précédent étaientt individuels et visibles par les chercheurs. <br />";
+                    echo "les résultats du test précédent étaient individuels et visibles par les chercheurs. <br />";
                     break;
             }
             echo "<br />";

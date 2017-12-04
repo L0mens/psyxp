@@ -32,7 +32,7 @@
 
 <div id="mcso-1-4" class="consigne hidden">
 
-    <p>Les résultat de ce test sont individuels et anonymes.<br /><br />
+    <p>Les résultats de ce test sont individuels et anonymes.<br /><br />
         Autrement dit, toi seul connaitra ton résultat personnel, même les chercheurs ne le connaitront pas. Ainsi, tu pourras comparer ta performance personnelle à celle des élèves de SEGPA.
     </p>
     <button id ="btn-suivant-mcso-1-4" class="btn-suivant-consigne" onclick="switchConsigne('mcso','1-5')">Suivant</button>

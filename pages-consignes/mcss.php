@@ -33,7 +33,7 @@
 
 <div id="mcss-1-4" class="consigne hidden">
 
-    <p>Les résultat de ce test sont individuels et anonymes.<br /><br />
+    <p>Les résultats de ce test sont individuels et anonymes.<br /><br />
         Autrement dit, toi seul connaitra ton résultat personnel, même les chercheurs ne le connaitront pas. Ainsi, tu pourras comparer ta performance personnelle à celle des élèves de classe générale.
     </p>
     <button id ="btn-suivant-mcss-1-4" class="btn-suivant-consigne" onclick="switchConsigne('mcss','1-5')">Suivant</button>

@@ -32,7 +32,9 @@
 
 <div id="mrs-1-5" class="consigne hidden">
     <h2>Consigne</h2>
-    <p>Clique sur le plus d’animaux possible dans la liste. L'élément changera alors de couleur. En cas d’erreur tu pourras décliquer.<br />
+    <p>Clique sur le plus d’animaux possible dans la liste. <br />
+        L'élément changera alors de couleur.<br />
+        En cas d’erreur tu pourras décliquer.<br />
         Attention !<br />
         Tu dois répondre de gauche à droite, ligne par ligne.<br />
         Tu auras un temps limité dès que le test s’affichera.<br />

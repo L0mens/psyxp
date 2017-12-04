@@ -52,7 +52,7 @@ $(".rep-choice input:radio").change(function(){
         }
     });
     //console.log(all_answered);
-    if(all_answered == 6){
+    if(all_answered == 9){
         $(".valid-btn").prop('disabled', false);
     }
 

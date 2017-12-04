@@ -68,7 +68,7 @@ un bousier;un busard;l'iridium;le sélénium;le chevesne;une civette
 un iota;une isba;la cabriole;une cicindèle;une civette;une luciole
 un macareux;un jalon;un rondin;le grondin;un stigmate;un orvet
 un pectan;un verdier;un radier;une plie;un igloo;un fauchon
-un phatasme;un phasme;une phyllade;une pholade;un espadon;une espadrille
+un phantasme;un phasme;une phyllade;une pholade;un espadon;une espadrille
 une courtillère;une fourmillière;une actine;un albatros;un gavial;un encornet
 une encolure;une gavotte;l'aconit;l'albâtre;la marelle;l'anophèle
 un aiguillon;une turquoise;une gerboise;un esturgeon;un gerfaut;le caret
