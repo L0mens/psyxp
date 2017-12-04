@@ -48,6 +48,7 @@ body{
     display: none;
 }
 
+
 #page-avert p{
     text-align: justify;
     margin: 20px 0px;
@@ -112,7 +113,7 @@ body{
 
 .consigne p{
 
-    padding: 50px 50px  ;
+    padding: 50px 50px 0 50px  ;
 }
 .consigne input[type=radio]{
     margin: 20px;
@@ -122,6 +123,7 @@ body{
     padding-top: 50px;
     display: block;
 }
+
 
 .consigne-form{
     background: cornflowerblue;
@@ -134,7 +136,7 @@ body{
     font-size: 16px;
 }
 .consigne-form p{
-    padding: 20px 0;
+    padding: 20px 0 ;
 }
 
 .btn-suivant-consigne{

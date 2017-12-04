@@ -106,8 +106,9 @@
     display: none;
 }
 
-.btn-suivant-consigne[disabled]{
-    display: none;
+.btn-suivant-consigne[disabled] {
+    opacity: 0.65;
+    cursor: not-allowed;
 }
 
 #form-code-group{
