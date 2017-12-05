@@ -42,7 +42,7 @@
     <button id ="btn-suivant-mrgs-1-4" class="btn-suivant-consigne" onclick="switchConsigne('mrgs','1-5')">Suivant</button>
 </div>
 
-<div id="mrgs-1-5" class="consigne hidden">
+<div id="mrgs-1-5" class="consigne consigne-final hidden">
     <h2>Consigne</h2>
     <p>Clique sur le plus de noms d’animaux possible dans la liste.<br /> Le mot changera alors de couleur.<br /> En cas d’erreur tu pourras décliquer.<br /> Attention !<br /> Tu dois utiliser le sens naturel de lecture (de gauche à droite, ligne par ligne).<br />Tu auras un temps limité dès que l’épreuve s’affichera.<br /> Pour être plus rapide, utilise les flèches de ton clavier.
     </p>

@@ -42,7 +42,7 @@
     <button id ="btn-suivant-mcgo-1-4" class="btn-suivant-consigne" onclick="switchConsigne('mcgo','1-5')">Suivant</button>
 </div>
 
-<div id="mcgo-1-5" class="consigne hidden">
+<div id="mcgo-1-5" class="consigne consigne-final hidden">
     <h2>Consigne</h2>
     <p>Clique sur le plus de noms d’animaux possible dans la liste.<br />
         Le mot changera alors de couleur.<br />

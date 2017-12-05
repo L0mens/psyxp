@@ -30,7 +30,7 @@
     </form>
 </div>
 
-<div id="mrs-1-5" class="consigne hidden">
+<div id="mrs-1-5" class="consigne consigne-final hidden">
     <h2>Consigne</h2>
     <p>Clique sur le plus d’animaux possible dans la liste. <br />
         L'élément changera alors de couleur.<br />
